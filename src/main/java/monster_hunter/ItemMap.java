@@ -12,16 +12,16 @@ import java.util.Set;
  * @author howan
  */
 public class ItemMap extends HashMap<String, Item> {
-    private static HashMap<String, Item> itemMap;
+	private static HashMap<String, Item> itemMap;
 
-    
-    private ItemMap() { }
-    
-    
-    public static HashMap<String, Item> getInstance(){
-        if (itemMap == null){
-            itemMap = new HashMap<String, Item>();
-        }
-        return itemMap;
-    }
+	
+	private ItemMap() { }
+	
+	
+	public static HashMap<String, Item> getInstance(){
+		if (itemMap == null){
+			itemMap = new HashMap<String, Item>();
+		}
+		return itemMap;
+	}
 }
