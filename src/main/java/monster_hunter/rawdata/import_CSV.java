@@ -46,10 +46,10 @@ public class import_CSV {
                     break;
             }
         }
-        Item item = new Item(name, quantity);
+        //Item item = new Item(name, quantity);
         HashMap itemMap = ItemMap.getInstance();
         
-        itemMap.put(name, item);
+        //itemMap.put(name, item);
         //System.out.println("Name: " + Util.padRight(name, 20) + "Quantity: " + quantity);
     }
     
