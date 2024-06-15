@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Items>
+    <!--Potion-->
+    <Item id="1" name="Potion" quantity="15">
+        <Rankings>
+            <Ranking>Low</Ranking>
+            <Ranking>High</Ranking>
+            <Ranking>Master</Ranking>
+        </Rankings>
+    </Item>
+    <!--Mega Potion-->
+    <Item id="2" name="Mega Potion" quantity="0">
+        <Rankings>
+            <Ranking>Low</Ranking>
+            <Ranking>High</Ranking>
+            <Ranking>Master</Ranking>
+        </Rankings>
+    </Item>
+    <!--Max Potion-->
+    <Item id="3" name="Max Potion" quantity="0">
+        <Rankings>
+            <Ranking>Low</Ranking>
+            <Ranking>High</Ranking>
+            <Ranking>Master</Ranking>
+        </Rankings>
+    </Item>
+    <!--Ancient Potion-->
+    <Item id="4" name="Ancient Potion" quantity="0">
+        <Rankings>
+            <Ranking>Low</Ranking>
+            <Ranking>High</Ranking>
+            <Ranking>Master</Ranking>
+        </Rankings>
+    </Item>
+    <!--Antidote-->
+    <Item id="5" name="Antidote" quantity="0">
+        <Rankings>
+            <Ranking>Low</Ranking>
+            <Ranking>High</Ranking>
+            <Ranking>Master</Ranking>
+        </Rankings>
+    </Item>
+</Items>

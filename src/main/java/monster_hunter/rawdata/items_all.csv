@@ -1,0 +1,1766 @@
+ID,name,quantity,Rating,Rating,Rating
+1,Potion,0,Low,High,Master
+2,Mega Potion,0,Low,High,Master
+3,Max Potion,0,Low,High,Master
+4,Ancient Potion,0,Low,High,Master
+5,Antidote,0,Low,High,Master
+6,Herbal Medicine,0,Low,High,Master
+7,Nulberry,0,Low,High,Master
+8,Cleanser,0,Low,High,Master
+9,Deodorant,0,Low,High,Master
+10,Energy Drink,0,Low,High,Master
+11,Ration,0,Low,High,Master
+12,Rare Steak,0,Low,High,Master
+13,Well-done Steak,0,Low,High,Master
+14,Burnt Meat,0,Low,High,Master
+15,Immunizer,0,Low,High,Master
+16,Dash Juice,0,Low,High,Master
+17,Might Seed,0,Low,High,Master
+18,Demondrug,0,Low,High,Master
+19,Mega Demondrug,0,Low,High,Master
+20,Adamant Seed,0,Low,High,Master
+21,Armorskin,0,Low,High,Master
+22,Mega Armorskin,0,Low,High,Master
+23,Lifepowder,0,Low,High,Master
+24,Dust of Life,0,Low,High,Master
+25,Herbal Powder,0,Low,High,Master
+26,Demon Powder,0,Low,High,Master
+27,Hardshell Powder,0,Low,High,Master
+28,Flash Bomb,0,Low,High,Master
+29,Sonic Bomb,0,Low,High,Master
+30,Dung Bomb,0,Low,High,Master
+31,Tranq Bomb,0,Low,High,Master
+32,Poison Smoke Bomb,0,Low,High,Master
+33,Farcaster,0,Low,High,Master
+34,BBQ Spit,0,Low,High,Master
+35,Whetstone,0,Low,High,Master
+36,Throwing Kunai,0,Low,High,Master
+37,Raw Meat,0,Low,High,Master
+38,Poisoned Meat,0,Low,High,Master
+39,Tinged Meat,0,Low,High,Master
+40,Drugged Meat,0,Low,High,Master
+41,Gunpowder,0,Low,High,Master
+42,Small Barrel,0,Low,High,Master
+43,Barrel Bomb,0,Low,High,Master
+44,Large Barrel,0,Low,High,Master
+45,Large Barrel Bomb,0,Low,High,Master
+46,Mega Barrel Bomb,0,Low,High,Master
+47,Ivy,0,Low,High,Master
+48,Spider Web,0,Low,High,Master
+49,Net,0,Low,High,Master
+50,Trap Tool,0,Low,High,Master
+51,Pitfall Trap,0,Low,High,Master
+52,Shock Trap,0,Low,High,Master
+53,Sushifish,0,Low,High,Master
+54,Gourmet Fish,0,Low,High,Master
+55,Whetfish,0,Low,High,Master
+56,Great Whetfish,0,Low,High,Master
+57,Gastronome Tuna,0,Low,High,Master
+58,Great Gastronome Tuna,0,Low,High,Master
+59,Powercharm,0,Low,High,Master
+60,Powertalon,0,Low,High,Master
+61,Armorcharm,0,Low,High,Master
+62,Armortalon,0,Low,High,Master
+63,Catalyst,0,Low,High,Master
+64,Honey,0,Low,High,Master
+65,Herb,0,Low,High,Master
+66,Antidote Herb,0,Low,High,Master
+67,Fire Herb,0,Low,High,Master
+68,Flowfern,0,Low,High,Master
+69,Snow Herb,0,Low,High,Master
+70,Sleep Herb,0,Low,High,Master
+71,Sunscorned Grass,0,Low,High,Master
+72,Gloamgrass Bud,0,Low,High,Master
+73,Felvine,0,Low,High,Master
+74,Blue Mushroom,0,Low,High,Master
+75,Mandragora,0,Low,High,Master
+76,Nitroshroom,0,Low,High,Master
+77,Toadstool,0,Low,High,Master
+78,Parashroom,0,Low,High,Master
+79,Exciteshroom,0,Low,High,Master
+80,Bitterbug,0,Low,High,Master
+81,Godbug,0,Low,High,Master
+82,Thunderbug,0,Low,High,Master
+83,Flashbug,0,Low,High,Master
+84,Scatterfish,0,Low,High,Master
+85,Popfish,0,Low,High,Master
+86,Dung,0,Low,High,Master
+87,Smokenut,0,Low,High,Master
+88,Latchberry,0,Low,High,Master
+89,Needleberry,0,Low,High,Master
+90,Huskberry,0,Low,High,Master
+91,Blastnut,0,Low,High,Master
+92,Bomberry,0,Low,High,Master
+93,Dragonfell Berry,0,Low,High,Master
+94,Slashberry,0,Low,High,Master
+95,Dragonstrike Nut,0,Low,High,Master
+96,Gunpowder Lv2,0,Low,High,Master
+97,Flamenut,0,Low,High,Master
+98,Combustuna,0,Low,High,Master
+99,Big Combustuna,0,Low,High,Master
+100,Gunpowder Lv3,0,Low,High,Master
+101,Blazenut,0,Low,High,Master
+102,Flamefin,0,Low,High,Master
+103,Great Flamefin,0,Low,High,Master
+104,Normal Ammo 1,0,Low,High,Master
+105,Normal Ammo 2,0,Low,High,Master
+106,Normal Ammo 3,0,Low,High,Master
+107,Pierce Ammo 1,0,Low,High,Master
+108,Pierce Ammo 2,0,Low,High,Master
+109,Pierce Ammo 3,0,Low,High,Master
+110,Spread Ammo 1,0,Low,High,Master
+111,Spread Ammo 2,0,Low,High,Master
+112,Spread Ammo 3,0,Low,High,Master
+113,Shrapnel Ammo 1,0,Low,High,Master
+114,Shrapnel Ammo 2,0,Low,High,Master
+115,Shrapnel Ammo 3,0,Low,High,Master
+116,Sticky Ammo 1,0,Low,High,Master
+117,Sticky Ammo 2,0,Low,High,Master
+118,Sticky Ammo 3,0,Low,High,Master
+119,Cluster Bomb 1,0,Low,High,Master
+120,Cluster Bomb 2,0,Low,High,Master
+121,Cluster Bomb 3,0,Low,High,Master
+122,Flaming Ammo,0,Low,High,Master
+123,Piercing Fire Ammo,0,Low,High,Master
+124,Water Ammo,0,Low,High,Master
+125,Piercing Water Ammo,0,Low,High,Master
+126,Thunder Ammo,0,Low,High,Master
+127,Piercing Thunder Ammo,0,Low,High,Master
+128,Freeze Ammo,0,Low,High,Master
+129,Piercing Ice Ammo,0,Low,High,Master
+130,Dragon Ammo,0,Low,High,Master
+131,Piercing Dragon Ammo,0,Low,High,Master
+132,Slicing Ammo,0,Low,High,Master
+133,Wyvern Ammo,0,Low,High,Master
+134,Poison Ammo 1,0,Low,High,Master
+135,Poison Ammo 2,0,Low,High,Master
+136,Paralysis Ammo 1,0,Low,High,Master
+137,Paralysis Ammo 2,0,Low,High,Master
+138,Sleep Ammo 1,0,Low,High,Master
+139,Sleep Ammo 2,0,Low,High,Master
+140,Exhaust Ammo 1,0,Low,High,Master
+141,Exhaust Ammo 2,0,Low,High,Master
+142,Recover Ammo 1,0,Low,High,Master
+143,Recover Ammo 2,0,Low,High,Master
+144,Demon Ammo,0,Low,High,Master
+145,Armor Ammo,0,Low,High,Master
+146,Tranq Ammo,0,Low,High,Master
+147,Empty Phial,0,Low,High,Master
+148,Power Coating,0,Low,High,Master
+149,Poison Coating,0,Low,High,Master
+150,Para Coating,0,Low,High,Master
+151,Sleep Coating,0,Low,High,Master
+152,Blast Coating,0,Low,High,Master
+153,Close-range Coating,0,Low,High,Master
+154,Exhaust Coating,0,Low,High,Master
+155,First-aid Med,0,Low,High,Master
+156,First-aid Med+,0,Low,High,Master
+157,EZ Max Potion,0,Low,High,Master
+158,EZ Ration,0,Low,High,Master
+159,EZ Lifepowder,0,Low,High,Master
+160,EZ Dust of Life,0,Low,High,Master
+161,EZ Herbal Powder,0,Low,High,Master
+162,EZ Demon Powder,0,Low,High,Master
+163,EZ Hardshell Powder,0,Low,High,Master
+164,EZ Meat Bait,0,Low,High,Master
+165,EZ Large Barrel Bomb,0,Low,High,Master
+166,EZ Pitfall Trap,0,Low,High,Master
+167,EZ Shock Trap,0,Low,High,Master
+168,EZ Flash Bomb,0,Low,High,Master
+169,EZ Sonic Bomb,0,Low,High,Master
+170,EZ Dung Bomb,0,Low,High,Master
+171,EZ Farcaster,0,Low,High,Master
+172,EZ Tranq Bomb,0,Low,High,Master
+173,Poison Kunai,0,Low,High,Master
+174,Paralysis Kunai,0,Low,High,Master
+175,Sleep Kunai,0,Low,High,Master
+176,Jumbofruit,0,Low,High,Master
+177,Poisonfruit,0,Low,High,Master
+178,Parafruit,0,Low,High,Master
+179,Flashfruit,0,Low,High,Master
+180,Gray Seed,0,Low,High,Master
+181,Crimson Seed,0,Low,High,Master
+182,Blue Seed,0,Low,High,Master
+183,Gold Seed,0,Low,High,Master
+184,Silver Seed,0,Low,High,Master
+185,Exploding Kunai,0,Low,High,Master
+186,Fire Barrel Bomb,0,Low,High,Master
+187,Water Barrel Bomb,0,Low,High,Master
+188,Thunder Barrel Bomb,0,Low,High,Master
+189,Ice Barrel Bomb,0,Low,High,Master
+190,Mountshrooms,0,Low,High,Master
+191,Shadeshrooms,0,Low,High,Master
+192,Rainbowshrooms,0,Low,High,Master
+193,Stargazer Flower,0,Low,High,Master
+194,Stargazer Bloom,0,Low,High,Master
+195,Jewel of the Fallen Star,0,Low,High,Master
+196,Sinister Cloth,0,Low,High,Master
+197,Sinister Darkcloth,0,Low,High,Master
+198,Sinister Gloomcloth,0,Low,High,Master
+199,Bumblepumpkin,0,Low,High,Master
+200,Omegapumpkin,0,Low,High,Master
+201,Maximumpkin,0,Low,High,Master
+202,Cutejelly,0,Low,High,Master
+203,Gothjelly,0,Low,High,Master
+204,Flouncejelly,0,Low,High,Master
+205,Nohsic Snuffcap,0,Low,High,Master
+206,Grooved Bones,0,Low,High,Master
+207,Dreamshell,0,Low,High,Master
+208,Deepshell,0,Low,High,Master
+209,Toxic Kumori,0,Low,High,Master
+210,Large Toxic Kumori,0,Low,High,Master
+211,Butterfly Beetle,0,Low,High,Master
+212,Split-Jaw Buttlefly,0,Low,High,Master
+213,Blossom Cricket,0,Low,High,Master
+214,Prairie Cricket,0,Low,High,Master
+215,Dosbiscus,0,Low,High,Master
+216,Valiabiscus,0,Low,High,Master
+217,Armored Bream,0,Low,High,Master
+218,Large Armored Bream,0,Low,High,Master
+219,Springnight Carp,0,Low,High,Master
+220,Sun Springnight Carp,0,Low,High,Master
+221,Locked Treasure Chest,0,Low,High,Master
+222,Speartuna,0,Low,High,Master
+223,Barrel Lid,0,Low,High,Master
+224,Iron Ore,0,Low,High,Master
+225,Earth Crystal,0,Low,High,Master
+226,Machalite Ore,0,Low,High,Master
+227,Dragonite Ore,0,Low,High,Master
+228,Awegite,0,Low,High,Master
+229,Carbalite Ore,0,Low,High,Master
+230,Fucium Ore,0,Low,High,Master
+231,Eltalite Ore,0,Low,High,Master
+232,Meldspar Ore,0,Low,High,Master
+233,Ultimas Crystal,0,Low,High,Master
+234,Icium,0,Low,High,Master
+235,Gracium,0,Low,High,Master
+236,Frocium,0,Low,High,Master
+237,Goldlite Ore,0,Low,High,Master
+238,Lightcrystal,0,Low,High,Master
+239,Novacrystal,0,Low,High,Master
+240,Purecrystal,0,Low,High,Master
+241,Firestone,0,Low,High,Master
+242,Firecell Stone,0,Low,High,Master
+243,Allfire Stone,0,Low,High,Master
+244,Sapphiron Ore,0,Low,High,Master
+245,Centuria Ore,0,Low,High,Master
+246,Armor Sphere,0,Low,High,Master
+247,Armor Sphere+,0,Low,High,Master
+248,Advanced Armor Sphere,0,Low,High,Master
+249,Hard Armor Sphere,0,Low,High,Master
+250,Heavy Armor Sphere,0,Low,High,Master
+251,King Armor Sphere,0,Low,High,Master
+252,True Armor Sphere,0,Low,High,Master
+253,Aquaglow Jewel,0,Low,High,Master
+254,Bloodrun Jewel,0,Low,High,Master
+255,Lazurite Jewel,0,Low,High,Master
+256,Adamant Jewel,0,Low,High,Master
+257,Sovereign Jewel,0,Low,High,Master
+258,Anomaly Jewel,0,Low,High,Master
+259,Twisted Remains,0,Low,High,Master
+260,Twisted Rockbone,0,Low,High,Master
+261,Twisted Stiffbone,0,Low,High,Master
+262,Frozen Stiffbone,0,Low,High,Master
+263,Eroded Skeleton,0,Low,High,Master
+264,Eroded Husk,0,Low,High,Master
+265,Eroded Elder Skeleton,0,Low,High,Master
+266,Caked Stiffbone,0,Low,High,Master
+267,Blackened Stiffbone,0,Low,High,Master
+268,Overgrown Stiffbone,0,Low,High,Master
+269,Chipped Oldbone,0,Low,High,Master
+270,Sturdy Bone,0,Low,High,Master
+271,Quality Bone,0,Low,High,Master
+272,Dragonhusk Shard,0,Low,High,Master
+273,Dragonbone Relic,0,Low,High,Master
+274,Massive Monster Bone,0,Low,High,Master
+275,Giant Monster Bone,0,Low,High,Master
+276,Dragonbone Artifact,0,Low,High,Master
+277,Monster Bone S,0,Low,High,Master
+278,Monster Bone M,0,Low,High,Master
+279,Monster Bone L,0,Low,High,Master
+280,Monster Bone+,0,Low,High,Master
+281,Monster Keenbone,0,Low,High,Master
+282,Monster Hardbone,0,Low,High,Master
+283,Monster Toughbone,0,Low,High,Master
+284,Monster Slogbone,0,Low,High,Master
+285,Elder Dragon Bone,0,Low,High,Master
+286,Large Elder Dragon Bone,0,Low,High,Master
+287,Jumbo Bone,0,Low,High,Master
+288,Colossal Bone,0,Low,High,Master
+289,Stoutbone,0,Low,High,Master
+290,Great Stoutbone,0,Low,High,Master
+291,Massive Bone,0,Low,High,Master
+292,Solid Bone,0,Low,High,Master
+293,Sharp Claw,0,Low,High,Master
+294,Piercing Claw,0,Low,High,Master
+295,Tough Claw,0,Low,High,Master
+296,Sharp Fang,0,Low,High,Master
+297,Acute Fang,0,Low,High,Master
+298,Crushing Fang,0,Low,High,Master
+299,Warm Pelt,0,Low,High,Master
+300,High-quality Pelt,0,Low,High,Master
+301,Prized Pelt,0,Low,High,Master
+302,Large Herbivore Bone,0,Low,High,Master
+303,Pale Extract,0,Low,High,Master
+304,Dash Extract,0,Low,High,Master
+305,Monster Fluid,0,Low,High,Master
+306,Monster Broth,0,Low,High,Master
+307,Monster Essence,0,Low,High,Master
+308,Elder Dragon Blood,0,Low,High,Master
+309,Pure Dragon Blood,0,Low,High,Master
+310,Fine Black Pearl,0,Low,High,Master
+311,Bird Wyvern Gem,0,Low,High,Master
+312,Fey Wyvern Gem,0,Low,High,Master
+313,Beast Gem,0,Low,High,Master
+314,Large Beast Gem,0,Low,High,Master
+315,Wyvern Gem,0,Low,High,Master
+316,Large Wyvern Gem,0,Low,High,Master
+317,Large Elder Dragon Gem,0,Low,High,Master
+318,Screamer Sac,0,Low,High,Master
+319,Poison Sac,0,Low,High,Master
+320,Toxin Sac,0,Low,High,Master
+321,Deadly Poison Sac,0,Low,High,Master
+322,Paralysis Sac,0,Low,High,Master
+323,Omniplegia Sac,0,Low,High,Master
+324,Ultraplegia Sac,0,Low,High,Master
+325,Sleep Sac,0,Low,High,Master
+326,Coma Sac,0,Low,High,Master
+327,Torpor Sac,0,Low,High,Master
+328,Flame Sac,0,Low,High,Master
+329,Inferno Sac,0,Low,High,Master
+330,Conflagrant Sac,0,Low,High,Master
+331,Electro Sac,0,Low,High,Master
+332,Thunder Sac,0,Low,High,Master
+333,Lightning Sac,0,Low,High,Master
+334,Frost Sac,0,Low,High,Master
+335,Freezer Sac,0,Low,High,Master
+336,Cryo Sac,0,Low,High,Master
+337,Aqua Sac,0,Low,High,Master
+338,Torrent Sac,0,Low,High,Master
+339,Flood Sac,0,Low,High,Master
+340,Pawprint Stamp,0,Low,High,Master
+341,Pawprint Ticket,0,Low,High,Master
+342,Felyne Fur Ruby,0,Low,High,Master
+343,Felyne Great Fur Ruby,0,Low,High,Master
+344,Kelbi Horn,0,Low,High,Master
+345,Bombadgy Igniter,0,Low,High,Master
+346,Bombadgy Activator,0,Low,High,Master
+347,Gargwa Feather,0,Low,High,Master
+348,Gargwa Finefeather,0,Low,High,Master
+349,Anteka Antler,0,Low,High,Master
+350,Anteka Proud Antler,0,Low,High,Master
+351,Slagtoth Hide,0,Low,High,Master
+352,Slagtoth Hide+,0,Low,High,Master
+353,Kestodon Shell,0,Low,High,Master
+354,Kestodon Carapace,0,Low,High,Master
+355,Kestodon Husk,0,Low,High,Master
+356,Kestodon Scalp,0,Low,High,Master
+357,Rhenoplos Shell,0,Low,High,Master
+358,Rhenoplos Carapace,0,Low,High,Master
+359,Rhenoplos Scalp,0,Low,High,Master
+360,Gowngoat Thickfur,0,Low,High,Master
+361,Bullfango Pelt,0,Low,High,Master
+362,Bullfango Pelt+,0,Low,High,Master
+363,Bullfango Thickfur,0,Low,High,Master
+364,Bullfango Head,0,Low,High,Master
+365,Jagras Scale,0,Low,High,Master
+366,Jagras Scale+,0,Low,High,Master
+367,Jagras Shard,0,Low,High,Master
+368,Jagras Hide,0,Low,High,Master
+369,Jagras Hide+,0,Low,High,Master
+370,Sharqskin Scale,0,Low,High,Master
+371,Meaty Hide,0,Low,High,Master
+372,Meaty Hide+,0,Low,High,Master
+373,Supple Piel,0,Low,High,Master
+374,Big Fin,0,Low,High,Master
+375,Quality Fin,0,Low,High,Master
+376,Hydro Hide,0,Low,High,Master
+377,Hydro Hide+,0,Low,High,Master
+378,Hydro Piel,0,Low,High,Master
+379,Immature Sponge,0,Low,High,Master
+380,Uroktor Scale,0,Low,High,Master
+381,Uroktor Scale+,0,Low,High,Master
+382,Uroktor Shard,0,Low,High,Master
+383,Rachnoid Silk,0,Low,High,Master
+384,Rachnoid Silk+,0,Low,High,Master
+385,Rachnoid Mesmersilk,0,Low,High,Master
+386,Pyrantula Maroon Thread,0,Low,High,Master
+387,Tiny Hermitaur Shell,0,Low,High,Master
+388,Ceanataur Shell,0,Low,High,Master
+389,Bnahabra Shell,0,Low,High,Master
+390,Bnahabra Carapace,0,Low,High,Master
+391,Bnahabra Wing,0,Low,High,Master
+392,Bnahabra Razorwing,0,Low,High,Master
+393,Bnahabra Stinger,0,Low,High,Master
+394,Altaroth Jaw,0,Low,High,Master
+395,Altaroth Stomach,0,Low,High,Master
+396,Quality Stomach,0,Low,High,Master
+397,Prized Stomach,0,Low,High,Master
+398,Gajau Skin,0,Low,High,Master
+399,Gajau Scale,0,Low,High,Master
+400,Gajau Thickhide,0,Low,High,Master
+401,Gajau Whisker,0,Low,High,Master
+402,Gajau Whisker+,0,Low,High,Master
+403,Steel Gajau Whisker,0,Low,High,Master
+404,Remobra Hide,0,Low,High,Master
+405,Remobra Hide+,0,Low,High,Master
+406,Remobra Finehide,0,Low,High,Master
+407,Striped Hide,0,Low,High,Master
+408,Striped Finehide,0,Low,High,Master
+409,Remobra Head,0,Low,High,Master
+410,Mighty Remobra Head,0,Low,High,Master
+411,Hornetaur Razorwing,0,Low,High,Master
+412,Hornetaur Cortex,0,Low,High,Master
+413,Hornetaur Head,0,Low,High,Master
+414,Vespoid Razorwing,0,Low,High,Master
+415,Vespoid Cortex,0,Low,High,Master
+416,Izuchi Pelt,0,Low,High,Master
+417,Izuchi Pelt+,0,Low,High,Master
+418,Heavy Izuchi Pelt,0,Low,High,Master
+419,Izuchi Tail,0,Low,High,Master
+420,Wroggi Scale,0,Low,High,Master
+421,Wroggi Scale+,0,Low,High,Master
+422,Wroggi Hide,0,Low,High,Master
+423,Baggi Scale,0,Low,High,Master
+424,Baggi Scale+,0,Low,High,Master
+425,Baggi Hide,0,Low,High,Master
+426,Jaggi Scale,0,Low,High,Master
+427,Jaggi Scale+,0,Low,High,Master
+428,Jaggi Shard,0,Low,High,Master
+429,Jaggi Hide,0,Low,High,Master
+430,Jaggi Hide+,0,Low,High,Master
+431,Jaggi Piel,0,Low,High,Master
+432,Velociprey Shard,0,Low,High,Master
+433,Velociprey Thickhide,0,Low,High,Master
+434,Boggi Thickhide,0,Low,High,Master
+435,Boggi Shard,0,Low,High,Master
+436,Great Izuchi Pelt,0,Low,High,Master
+437,Great Izuchi Pelt+,0,Low,High,Master
+438,Great Izuchi Thickfur,0,Low,High,Master
+439,Great Izuchi Hide,0,Low,High,Master
+440,Great Izuchi Hide+,0,Low,High,Master
+441,Great Izuchi Thickhide,0,Low,High,Master
+442,Great Izuchi Tail,0,Low,High,Master
+443,Great Izuchi Tail+,0,Low,High,Master
+444,Great Izuchi Grindtail,0,Low,High,Master
+445,Great Baggi Hide,0,Low,High,Master
+446,Great Baggi Hide+,0,Low,High,Master
+447,Great Baggi Thickhide,0,Low,High,Master
+448,Great Baggi Claw,0,Low,High,Master
+449,Great Baggi Claw+,0,Low,High,Master
+450,King's Crest,0,Low,High,Master
+451,Glorious Crest,0,Low,High,Master
+452,Kulu-Ya-Ku Scale,0,Low,High,Master
+453,Kulu-Ya-Ku Scale+,0,Low,High,Master
+454,Kulu-Ya-Ku Shard,0,Low,High,Master
+455,Kulu-Ya-Ku Hide,0,Low,High,Master
+456,Kulu-Ya-Ku Hide+,0,Low,High,Master
+457,Kulu-Ya-Ku Thickhide,0,Low,High,Master
+458,Kulu-Ya-Ku Beak,0,Low,High,Master
+459,Kulu-Ya-Ku Beak+,0,Low,High,Master
+460,Colossal Drill Beak,0,Low,High,Master
+461,Kulu-Ya-Ku Plume,0,Low,High,Master
+462,Kulu-Ya-Ku Plume+,0,Low,High,Master
+463,Large Kulu-Ya-Ku Plume,0,Low,High,Master
+464,Great Wroggi Hide,0,Low,High,Master
+465,Great Wroggi Hide+,0,Low,High,Master
+466,Great Wroggi Thickhide,0,Low,High,Master
+467,Great Wroggi Brace,0,Low,High,Master
+468,Great Wroggi Brace+,0,Low,High,Master
+469,King's Beak,0,Low,High,Master
+470,Imperial Beak,0,Low,High,Master
+471,Arzuros Pelt,0,Low,High,Master
+472,Arzuros Pelt+,0,Low,High,Master
+473,Arzuros Fur,0,Low,High,Master
+474,Arzuros Shell,0,Low,High,Master
+475,Arzuros Carapace,0,Low,High,Master
+476,Arzuros Cortex,0,Low,High,Master
+477,Arzuros Brace,0,Low,High,Master
+478,Arzuros Brace+,0,Low,High,Master
+479,Arzuros Allbrace,0,Low,High,Master
+480,Lagombi Pelt,0,Low,High,Master
+481,Lagombi Pelt+,0,Low,High,Master
+482,Lagombi Fur,0,Low,High,Master
+483,Lagombi Ear,0,Low,High,Master
+484,Lagombi Ear+,0,Low,High,Master
+485,Lagombi Auricle,0,Low,High,Master
+486,Lagombi Plastron,0,Low,High,Master
+487,Lagombi Plastron+,0,Low,High,Master
+488,Lagombi Cuirass,0,Low,High,Master
+489,Lagombi Iceclaw,0,Low,High,Master
+490,Lagombi Frozenclaw,0,Low,High,Master
+491,Lagombi Frigidclaw,0,Low,High,Master
+492,Volvidon Shell,0,Low,High,Master
+493,Volvidon Carapace,0,Low,High,Master
+494,Volvidon Cortex,0,Low,High,Master
+495,Volvidon Claw,0,Low,High,Master
+496,Volvidon Claw+,0,Low,High,Master
+497,Volvidon Talon,0,Low,High,Master
+498,Volvidon Rickrack,0,Low,High,Master
+499,Large Volvi Rickrack,0,Low,High,Master
+500,Aknosom Scale,0,Low,High,Master
+501,Aknosom Scale+,0,Low,High,Master
+502,Aknosom Shard,0,Low,High,Master
+503,Aknosom Feather,0,Low,High,Master
+504,Aknosom Feather+,0,Low,High,Master
+505,Aknosom Plume,0,Low,High,Master
+506,Aknosom Crest,0,Low,High,Master
+507,Aknosom Crest+,0,Low,High,Master
+508,Aknosom Head-Crest,0,Low,High,Master
+509,Aknosom Beak,0,Low,High,Master
+510,Aknosom Burnbeak,0,Low,High,Master
+511,Spongy Hide,0,Low,High,Master
+512,Spongy Hide+,0,Low,High,Master
+513,Spongy Piel,0,Low,High,Master
+514,Royal Ludroth Scale,0,Low,High,Master
+515,Royal Ludroth Scale+,0,Low,High,Master
+516,Royal Ludroth Shard,0,Low,High,Master
+517,Royal Ludroth Claw,0,Low,High,Master
+518,Royal Ludroth Claw+,0,Low,High,Master
+519,Royal Ludroth Talon,0,Low,High,Master
+520,Royal Ludroth Crest,0,Low,High,Master
+521,Royal Ludroth Crest+,0,Low,High,Master
+522,Chic Crest,0,Low,High,Master
+523,Royal Ludroth Tail,0,Low,High,Master
+524,Royal Ludroth Lash,0,Low,High,Master
+525,Barroth Shell,0,Low,High,Master
+526,Barroth Carapace,0,Low,High,Master
+527,Barroth Cortex,0,Low,High,Master
+528,Barroth Ridge,0,Low,High,Master
+529,Barroth Ridge+,0,Low,High,Master
+530,Barroth Chine,0,Low,High,Master
+531,Barroth Claw,0,Low,High,Master
+532,Barroth Claw+,0,Low,High,Master
+533,Barroth Hardclaw,0,Low,High,Master
+534,Barroth Scalp,0,Low,High,Master
+535,Barroth Crown,0,Low,High,Master
+536,Barroth Tail,0,Low,High,Master
+537,Barroth Lash,0,Low,High,Master
+538,Fertile Mud,0,Low,High,Master
+539,Rich Mud,0,Low,High,Master
+540,Hermitaur Hardclaw,0,Low,High,Master
+541,Hermitaur Cortex,0,Low,High,Master
+542,Timeworn Crimson Horn,0,Low,High,Master
+543,Flabby Hide,0,Low,High,Master
+544,Pearl Hide,0,Low,High,Master
+545,Pearl Glosshide,0,Low,High,Master
+546,Suspicious Fang,0,Low,High,Master
+547,Suspicious Fang+,0,Low,High,Master
+548,Mystic Hardfang,0,Low,High,Master
+549,Pale Bone,0,Low,High,Master
+550,Pale Steak,0,Low,High,Master
+551,Khezu Special Cut,0,Low,High,Master
+552,Tetranadon Hide,0,Low,High,Master
+553,Tetranadon Hide+,0,Low,High,Master
+554,Tetranadon Thickhide,0,Low,High,Master
+555,Tetra Carapace,0,Low,High,Master
+556,Tetra Carapace+,0,Low,High,Master
+557,Heavy Tetra Carapace,0,Low,High,Master
+558,Tetranadon Beak,0,Low,High,Master
+559,Tetranadon Beak+,0,Low,High,Master
+560,Tetranadon Greatbeak,0,Low,High,Master
+561,Tetranadon Disc,0,Low,High,Master
+562,Tetranadon Disc+,0,Low,High,Master
+563,Tetranadon Finedisc,0,Low,High,Master
+564,Bishaten Fur,0,Low,High,Master
+565,Bishaten Fur+,0,Low,High,Master
+566,Bishaten Finefur,0,Low,High,Master
+567,Bishaten Talon,0,Low,High,Master
+568,Bishaten Talon+,0,Low,High,Master
+569,Bishaten Hardclaw,0,Low,High,Master
+570,Bishaten Feather,0,Low,High,Master
+571,Bishaten Feather+,0,Low,High,Master
+572,Bishaten Glidefeather,0,Low,High,Master
+573,Bishaten Horn,0,Low,High,Master
+574,Bishaten Horn+,0,Low,High,Master
+575,Bishaten Heavyhorn,0,Low,High,Master
+576,Bisha Tailcase,0,Low,High,Master
+577,Bishaten Tailcase+,0,Low,High,Master
+578,Bishaten Hardtail,0,Low,High,Master
+579,Orangaten Fur+,0,Low,High,Master
+580,Orangaten Talon,0,Low,High,Master
+581,Orangaten Feather+,0,Low,High,Master
+582,Orangaten Horn+,0,Low,High,Master
+583,Orangaten Tailcase+,0,Low,High,Master
+584,Pukei-Pukei Scale,0,Low,High,Master
+585,Pukei-Pukei Scale+,0,Low,High,Master
+586,Pukei-Pukei Shard,0,Low,High,Master
+587,Pukei-Pukei Shell,0,Low,High,Master
+588,Pukei-Pukei Carapace,0,Low,High,Master
+589,Pukei-Pukei Cortex,0,Low,High,Master
+590,Pukei-Pukei Quill,0,Low,High,Master
+591,Pukei-Pukei Wing,0,Low,High,Master
+592,Pukei-Pukei Fellwing,0,Low,High,Master
+593,Pukei-Pukei Sac,0,Low,High,Master
+594,Pukei-Pukei Sac+,0,Low,High,Master
+595,Large Pukei-Pukei Sac,0,Low,High,Master
+596,Pukei-Pukei Tail,0,Low,High,Master
+597,Pukei-Pukei Lash,0,Low,High,Master
+598,Jyuratodus Scale+,0,Low,High,Master
+599,Jyuratodus Shard,0,Low,High,Master
+600,Jyuratodus Carapace,0,Low,High,Master
+601,Jyuratodus Cortex,0,Low,High,Master
+602,Jyuratodus Fang+,0,Low,High,Master
+603,Jyuratodus Hardfang,0,Low,High,Master
+604,Jyuratodus Fin+,0,Low,High,Master
+605,Jyuratodus Grandfin,0,Low,High,Master
+606,Basarios Shell,0,Low,High,Master
+607,Basarios Carapace,0,Low,High,Master
+608,Basarios Cortex,0,Low,High,Master
+609,Basarios Pleura,0,Low,High,Master
+610,Basarios Pleura+,0,Low,High,Master
+611,Basarios Pectus+,0,Low,High,Master
+612,Basarios Wing,0,Low,High,Master
+613,Basarios Fellwing,0,Low,High,Master
+614,Basarios Tail,0,Low,High,Master
+615,Basarios Lash,0,Low,High,Master
+616,Basarios Tears,0,Low,High,Master
+617,Basarios Pallium,0,Low,High,Master
+618,Somnacanth Scale,0,Low,High,Master
+619,Somnacanth Scale+,0,Low,High,Master
+620,Somnacanth Shard,0,Low,High,Master
+621,Somnacanth Shell,0,Low,High,Master
+622,Somnacanth Shell+,0,Low,High,Master
+623,Somnacanth Cortex,0,Low,High,Master
+624,Somnacanth Claw,0,Low,High,Master
+625,Somnacanth Claw+,0,Low,High,Master
+626,Somnacanth Dreamtalon,0,Low,High,Master
+627,Somnacanth Fin,0,Low,High,Master
+628,Somnacanth Fin+,0,Low,High,Master
+629,Somnacanth Wild Fin,0,Low,High,Master
+630,Somnacanth Dust,0,Low,High,Master
+631,Somnacanth Sedative,0,Low,High,Master
+632,Somna Dream Powder,0,Low,High,Master
+633,Auroracanth Icescale,0,Low,High,Master
+634,Auroracanth Icecortex,0,Low,High,Master
+635,Auroracanth Iceclaw,0,Low,High,Master
+636,Auroracanth Fin,0,Low,High,Master
+637,Rathian Scale,0,Low,High,Master
+638,Rathian Scale+,0,Low,High,Master
+639,Rathian Shard,0,Low,High,Master
+640,Rathian Shell,0,Low,High,Master
+641,Rathian Carapace,0,Low,High,Master
+642,Rathian Cortex,0,Low,High,Master
+643,Rathian Webbing,0,Low,High,Master
+644,Rathian Weave,0,Low,High,Master
+645,Rathian Spike,0,Low,High,Master
+646,Rathian Spike+,0,Low,High,Master
+647,Rathian Surspike,0,Low,High,Master
+648,Rathian Plate,0,Low,High,Master
+649,Rathian Ruby,0,Low,High,Master
+650,Rathian Mantle,0,Low,High,Master
+651,Gold Rathian Shard,0,Low,High,Master
+652,Gold Rathian Cortex,0,Low,High,Master
+653,Gold Rathian Weave,0,Low,High,Master
+654,Gold Rathian Surspike,0,Low,High,Master
+655,Rath Wingtalon,0,Low,High,Master
+656,Rath Wingtalon+,0,Low,High,Master
+657,Rath Wingripper,0,Low,High,Master
+658,Rath Marrow,0,Low,High,Master
+659,Rath Medulla,0,Low,High,Master
+660,Rath Gleam,0,Low,High,Master
+661,Barioth Shell,0,Low,High,Master
+662,Barioth Carapace,0,Low,High,Master
+663,Barioth Cortex,0,Low,High,Master
+664,Barioth Pelt,0,Low,High,Master
+665,Barioth Pelt+,0,Low,High,Master
+666,Barioth Thickfur,0,Low,High,Master
+667,Barioth Claw,0,Low,High,Master
+668,Barioth Claw+,0,Low,High,Master
+669,Barioth Hardclaw,0,Low,High,Master
+670,Barioth Spike,0,Low,High,Master
+671,Barioth Greatspike,0,Low,High,Master
+672,Barioth Tail,0,Low,High,Master
+673,Barioth Lash,0,Low,High,Master
+674,Amber Fang,0,Low,High,Master
+675,Amber Fang+,0,Low,High,Master
+676,Amber Hardfang,0,Low,High,Master
+677,Tobi-Kadachi Scale,0,Low,High,Master
+678,Tobi-Kadachi Scale+,0,Low,High,Master
+679,Tobi-Kadachi Shard,0,Low,High,Master
+680,Tobi-Kadachi Pelt,0,Low,High,Master
+681,Tobi-Kadachi Pelt+,0,Low,High,Master
+682,Tobi-Kadachi Thickfur,0,Low,High,Master
+683,Tobi-Kadachi Membrane,0,Low,High,Master
+684,Tobi-Kadachi Membrane+,0,Low,High,Master
+685,Tobi-Kadachi Claw,0,Low,High,Master
+686,Tobi-Kadachi Claw+,0,Low,High,Master
+687,Tobi-Kadachi Hardclaw,0,Low,High,Master
+688,Tobi-Kadachi Electrode,0,Low,High,Master
+689,Tobi-Kadachi Electrode+,0,Low,High,Master
+690,Tobi-Kadachi Cathode,0,Low,High,Master
+691,Magnamalo Scale,0,Low,High,Master
+692,Magnamalo Scale+,0,Low,High,Master
+693,Magnamalo Shard,0,Low,High,Master
+694,Magnamalo Shell,0,Low,High,Master
+695,Magnamalo Shell+,0,Low,High,Master
+696,Magnamalo Cortex,0,Low,High,Master
+697,Magnamalo Blade,0,Low,High,Master
+698,Magnamalo Blade+,0,Low,High,Master
+699,Magna Ascended Blade,0,Low,High,Master
+700,Magnamalo Scute,0,Low,High,Master
+701,Magnamalo Scute+,0,Low,High,Master
+702,Magnamalo Bladeshell,0,Low,High,Master
+703,Magnamalo Horn,0,Low,High,Master
+704,Magnamalo Horn+,0,Low,High,Master
+705,Magnamalo Hellhorn,0,Low,High,Master
+706,Magnamalo Tail,0,Low,High,Master
+707,Magnamalo Speartail,0,Low,High,Master
+708,Magna Ghostprism,0,Low,High,Master
+709,Magna Soulprism,0,Low,High,Master
+710,Magnamalo Soulprism+,0,Low,High,Master
+711,Magnamalo Plate,0,Low,High,Master
+712,Purple Magna Orb,0,Low,High,Master
+713,Magnamalo Orb,0,Low,High,Master
+714,Begrudged Rancorscale,0,Low,High,Master
+715,Magna Armored Cortex,0,Low,High,Master
+716,Surging Armblade,0,Low,High,Master
+717,Moaning Bladeshell,0,Low,High,Master
+718,Horn of Malice,0,Low,High,Master
+719,Magnamalo Tail+,0,Low,High,Master
+720,Magna Barrierprism,0,Low,High,Master
+721,Magna Glare Eye,0,Low,High,Master
+722,Anjanath Scale,0,Low,High,Master
+723,Anjanath Scale+,0,Low,High,Master
+724,Anjanath Shard,0,Low,High,Master
+725,Anjanath Pelt,0,Low,High,Master
+726,Anjanath Pelt+,0,Low,High,Master
+727,Anjanath Fur,0,Low,High,Master
+728,Anjanath Fang,0,Low,High,Master
+729,Anjanath Fang+,0,Low,High,Master
+730,Anjanath Hardfang,0,Low,High,Master
+731,Anjanath Nosebone,0,Low,High,Master
+732,Anjanath Nosebone+,0,Low,High,Master
+733,Heavy Anjanath Nosebone,0,Low,High,Master
+734,Anjanath Tail,0,Low,High,Master
+735,Anjanath Lash,0,Low,High,Master
+736,Anjanath Plate,0,Low,High,Master
+737,Anjanath Gem,0,Low,High,Master
+738,Anjanath Mantle,0,Low,High,Master
+739,Nargacuga Scale,0,Low,High,Master
+740,Nargacuga Scale+,0,Low,High,Master
+741,Nargacuga Shard,0,Low,High,Master
+742,Nargacuga Blackfur,0,Low,High,Master
+743,Nargacuga Pelt+,0,Low,High,Master
+744,Nargacuga Blackfur+,0,Low,High,Master
+745,Nargacuga Tail,0,Low,High,Master
+746,Nargacuga Lash,0,Low,High,Master
+747,Narga Tailspike,0,Low,High,Master
+748,Nargacuga Tailspear,0,Low,High,Master
+749,Nargacuga Cutwing,0,Low,High,Master
+750,Narga Razor,0,Low,High,Master
+751,Nargacuga Cutwing+,0,Low,High,Master
+752,Nargacuga Fang,0,Low,High,Master
+753,Nargacuga Fang+,0,Low,High,Master
+754,Nargacuga Hardfang,0,Low,High,Master
+755,Nargacuga Marrow,0,Low,High,Master
+756,Narga Medulla,0,Low,High,Master
+757,Nargacuga Mantle,0,Low,High,Master
+758,Lucent Narga Shard,0,Low,High,Master
+759,Lucent Narga Dapple,0,Low,High,Master
+760,Lucent Narga Tailspear,0,Low,High,Master
+761,Lucent Narga Razor,0,Low,High,Master
+762,Lucent Narga Hardfang,0,Low,High,Master
+763,Cloudy Moonshard,0,Low,High,Master
+764,Mizutsune Scale,0,Low,High,Master
+765,Mizutsune Scale+,0,Low,High,Master
+766,Mizutsune Shard,0,Low,High,Master
+767,Mizutsune Purplefur,0,Low,High,Master
+768,Mizutsune Purplefur+,0,Low,High,Master
+769,Mizutsune Purplefell,0,Low,High,Master
+770,Mizutsune Claw,0,Low,High,Master
+771,Mizutsune Claw+,0,Low,High,Master
+772,Mizutsune Hardclaw,0,Low,High,Master
+773,Mizutsune Fin,0,Low,High,Master
+774,Mizutsune Fin+,0,Low,High,Master
+775,Mizutsune Silkfin,0,Low,High,Master
+776,Mizutsune Tail,0,Low,High,Master
+777,Purple Mizutsune Tail,0,Low,High,Master
+778,Bubblefoam,0,Low,High,Master
+779,Bubblefoam+,0,Low,High,Master
+780,Distilled Bubblefoam,0,Low,High,Master
+781,Mizutsune Plate,0,Low,High,Master
+782,Mizutsune Water Orb,0,Low,High,Master
+783,Mizutsune Mantle,0,Low,High,Master
+784,Violet Mizu Shard,0,Low,High,Master
+785,Violet Mizu Whitefell,0,Low,High,Master
+786,Violet Mizu Hardclaw,0,Low,High,Master
+787,Violet Mizu Fin,0,Low,High,Master
+788,Violet Mizu Tail,0,Low,High,Master
+789,White Synovial Fluid,0,Low,High,Master
+790,Violet Mizu Mantle,0,Low,High,Master
+791,Goss Harag Fur,0,Low,High,Master
+792,Goss Harag Fur+,0,Low,High,Master
+793,Goss Harag Frozen Fur,0,Low,High,Master
+794,Goss Harag Hide,0,Low,High,Master
+795,Goss Harag Hide+,0,Low,High,Master
+796,Goss Finehide,0,Low,High,Master
+797,Goss Harag Claw,0,Low,High,Master
+798,Goss Harag Claw+,0,Low,High,Master
+799,Goss Harag Hardclaw,0,Low,High,Master
+800,Goss Harag Brace,0,Low,High,Master
+801,Goss Harag Brace+,0,Low,High,Master
+802,Goss Harag Allbrace,0,Low,High,Master
+803,Goss Harag Horn,0,Low,High,Master
+804,Goss Harag Horn+,0,Low,High,Master
+805,Goss Harag Hardhorn,0,Low,High,Master
+806,Block of Ice,0,Low,High,Master
+807,Block of Ice+,0,Low,High,Master
+808,Dense Block of Ice,0,Low,High,Master
+809,Goss Harag Bile,0,Low,High,Master
+810,Goss Harag Bile+,0,Low,High,Master
+811,Garangolm Cortex,0,Low,High,Master
+812,Garangolm Shard,0,Low,High,Master
+813,Garangolm Hardfang,0,Low,High,Master
+814,Garangolm Fist,0,Low,High,Master
+815,Golm Ploughtail,0,Low,High,Master
+816,Golm Thick Juice,0,Low,High,Master
+817,Ceanataur Hardclaw,0,Low,High,Master
+818,Ceanataur Cortex,0,Low,High,Master
+819,Heavy Ceanataur Leg,0,Low,High,Master
+820,Heavy Wyvern Scalp,0,Low,High,Master
+821,Rathalos Scale,0,Low,High,Master
+822,Rathalos Scale+,0,Low,High,Master
+823,Rathalos Shard,0,Low,High,Master
+824,Rathalos Shell,0,Low,High,Master
+825,Rathalos Carapace,0,Low,High,Master
+826,Rathalos Cortex,0,Low,High,Master
+827,Rathalos Webbing,0,Low,High,Master
+828,Rathalos Wing,0,Low,High,Master
+829,Rathalos Fellwing,0,Low,High,Master
+830,Rathalos Tail,0,Low,High,Master
+831,Rathalos Lash,0,Low,High,Master
+832,Rathalos Plate,0,Low,High,Master
+833,Rathalos Ruby,0,Low,High,Master
+834,Rathalos Mantle,0,Low,High,Master
+835,Silver Rathalos Shard,0,Low,High,Master
+836,Silver Rathalos Cortex,0,Low,High,Master
+837,Silver Rathalos Fellwing,0,Low,High,Master
+838,Silver Rathalos Lash,0,Low,High,Master
+839,Almudron Scale,0,Low,High,Master
+840,Almudron Scale+,0,Low,High,Master
+841,Almudron Shard,0,Low,High,Master
+842,Almudron Shell,0,Low,High,Master
+843,Almudron Shell+,0,Low,High,Master
+844,Almudron Cortex,0,Low,High,Master
+845,Almudron Claw,0,Low,High,Master
+846,Almudron Claw+,0,Low,High,Master
+847,Almudron Hardclaw,0,Low,High,Master
+848,Almudron Fin,0,Low,High,Master
+849,Almudron Fin+,0,Low,High,Master
+850,Large Almudron Fin,0,Low,High,Master
+851,Almudron Whisker,0,Low,High,Master
+852,Almudron Whisker+,0,Low,High,Master
+853,Almud Ascetic Whisker,0,Low,High,Master
+854,Almudron Tail,0,Low,High,Master
+855,Almudron Lashtail,0,Low,High,Master
+856,Golden Muck,0,Low,High,Master
+857,Golden Sludge,0,Low,High,Master
+858,Pure Golden Sludge,0,Low,High,Master
+859,Almudron Plate,0,Low,High,Master
+860,Golden Almudron Orb,0,Low,High,Master
+861,Almudron Mantle,0,Low,High,Master
+862,Magmadron Shard,0,Low,High,Master
+863,Magmadron Cortex,0,Low,High,Master
+864,Magmadron Hardclaw,0,Low,High,Master
+865,Large Magmadron Fin,0,Low,High,Master
+866,Magmadron Hardwhisker,0,Low,High,Master
+867,Magmadron Tail,0,Low,High,Master
+868,Inferno Lava Mud,0,Low,High,Master
+869,Magmadron Mantle,0,Low,High,Master
+870,Zinogre Shell,0,Low,High,Master
+871,Zinogre Carapace,0,Low,High,Master
+872,Zinogre Cortex,0,Low,High,Master
+873,Zinogre Shockfur,0,Low,High,Master
+874,Zinogre Electrofur,0,Low,High,Master
+875,Zinogre Electrofur+,0,Low,High,Master
+876,Zinogre Horn,0,Low,High,Master
+877,Zinogre Horn+,0,Low,High,Master
+878,Zinogre Hardhorn,0,Low,High,Master
+879,Zinogre Claw,0,Low,High,Master
+880,Zinogre Claw+,0,Low,High,Master
+881,Zinogre Hardclaw,0,Low,High,Master
+882,Zinogre Tail,0,Low,High,Master
+883,Zinogre Lash,0,Low,High,Master
+884,Zinogre Shocker,0,Low,High,Master
+885,Zinogre Shocker+,0,Low,High,Master
+886,Zinogre Deathly Shocker,0,Low,High,Master
+887,Fulgurbug,0,Low,High,Master
+888,Zinogre Plate,0,Low,High,Master
+889,Zinogre Jasper,0,Low,High,Master
+890,Zinogre Skymerald,0,Low,High,Master
+891,Lunagaron Shard,0,Low,High,Master
+892,Lunagaron Cortex,0,Low,High,Master
+893,Frostborn Hardfang,0,Low,High,Master
+894,Luna Vermilion Hardclaw,0,Low,High,Master
+895,Lunagaron Bluecore,0,Low,High,Master
+896,Lunagaron Lash Shell,0,Low,High,Master
+897,Lunagaron Frost Jewel,0,Low,High,Master
+898,Astalos Shard,0,Low,High,Master
+899,Heavy Astalos Shell,0,Low,High,Master
+900,Astalos Wingmembrane,0,Low,High,Master
+901,Boltscale,0,Low,High,Master
+902,Astalos Wingripper,0,Low,High,Master
+903,Heavy Astalos Crest+,0,Low,High,Master
+904,Astalos Scissortailblade,0,Low,High,Master
+905,Astalos Mantle,0,Low,High,Master
+906,Espinas Shard,0,Low,High,Master
+907,Espinas Cortex,0,Low,High,Master
+908,Espinas Surspike,0,Low,High,Master
+909,Espinas Hardhorn,0,Low,High,Master
+910,Espinas Lash,0,Low,High,Master
+911,Espinas Toxic Blood,0,Low,High,Master
+912,Espinas Mantle,0,Low,High,Master
+913,Flaming Espinas Shard,0,Low,High,Master
+914,Flaming Espinas Cortex,0,Low,High,Master
+915,Flaming Espinas Surspike,0,Low,High,Master
+916,Flaming Espinas Hardhorn,0,Low,High,Master
+917,Flaming Espinas Lash,0,Low,High,Master
+918,Flaming Espinas Sulfur,0,Low,High,Master
+919,Flaming Espinas Mantle,0,Low,High,Master
+920,Gore Magala Shard,0,Low,High,Master
+921,Gore Magala Cortex,0,Low,High,Master
+922,Gore Magala Shredder,0,Low,High,Master
+923,Gore Magala Eclipse,0,Low,High,Master
+924,Gore Magala Sensor,0,Low,High,Master
+925,Gore Magala Tail,0,Low,High,Master
+926,Gore Magala Mantle,0,Low,High,Master
+927,Chaos Scale,0,Low,High,Master
+928,Diametrical Horn,0,Low,High,Master
+929,Antinomic Wing,0,Low,High,Master
+930,Contrary Scale,0,Low,High,Master
+931,Seregios Slavescale+,0,Low,High,Master
+932,Seregios Airblade+,0,Low,High,Master
+933,Seregios Carver+,0,Low,High,Master
+934,Seregios Scraper+,0,Low,High,Master
+935,Seregios Impaler+,0,Low,High,Master
+936,Seregios Breacher+,0,Low,High,Master
+937,Seregios Lens,0,Low,High,Master
+938,Tigrex Scale,0,Low,High,Master
+939,Tigrex Scale+,0,Low,High,Master
+940,Tigrex Shard,0,Low,High,Master
+941,Tigrex Shell,0,Low,High,Master
+942,Tigrex Carapace,0,Low,High,Master
+943,Tigrex Cortex,0,Low,High,Master
+944,Tigrex Claw,0,Low,High,Master
+945,Tigrex Claw+,0,Low,High,Master
+946,Tigrex Hardclaw,0,Low,High,Master
+947,Tigrex Fang,0,Low,High,Master
+948,Tigrex Fang+,0,Low,High,Master
+949,Tigrex Hardfang,0,Low,High,Master
+950,Tigrex Tail,0,Low,High,Master
+951,Tigrex Lash,0,Low,High,Master
+952,Tigrex Scalp,0,Low,High,Master
+953,Tigrex Maw,0,Low,High,Master
+954,Tigrex Mantle,0,Low,High,Master
+955,Diablos Shell,0,Low,High,Master
+956,Diablos Carapace,0,Low,High,Master
+957,Diablos Cortex,0,Low,High,Master
+958,Diablos Ridge,0,Low,High,Master
+959,Diablos Ridge+,0,Low,High,Master
+960,Diablos Chine,0,Low,High,Master
+961,Diablos Tailcase,0,Low,High,Master
+962,Diablos Tailcase+,0,Low,High,Master
+963,Diablos Fang,0,Low,High,Master
+964,Twisted Horn,0,Low,High,Master
+965,Majestic Horn,0,Low,High,Master
+966,Twisted Stouthorn,0,Low,High,Master
+967,Diablos Marrow,0,Low,High,Master
+968,Diablos Medulla,0,Low,High,Master
+969,Rakna-Kadaki Silk,0,Low,High,Master
+970,Rakna-Kadaki Silk+,0,Low,High,Master
+971,Rakna-Kadaki Carapace,0,Low,High,Master
+972,Rakna-Kadaki Cortex,0,Low,High,Master
+973,Rakna-Kadaki Sharpclaw,0,Low,High,Master
+974,Rakna-Kadaki Hardclaw,0,Low,High,Master
+975,Rakna-Kadaki Spike,0,Low,High,Master
+976,Rakna-Kadaki Spike+,0,Low,High,Master
+977,Rakna-Kadaki Glowgut,0,Low,High,Master
+978,Rakna-Kadaki Glowgut+,0,Low,High,Master
+979,Pyre-Kadaki Silk+,0,Low,High,Master
+980,Pyre-Kadaki Cortex,0,Low,High,Master
+981,Pyre-Kadaki Hardclaw,0,Low,High,Master
+982,Pyre-Kadaki Spike+,0,Low,High,Master
+983,Pyre-Kadaki Dull Glowgut,0,Low,High,Master
+984,Daora Carapace,0,Low,High,Master
+985,Daora Cortex,0,Low,High,Master
+986,Daora Dragon Scale+,0,Low,High,Master
+987,Daora Shard,0,Low,High,Master
+988,Daora Webbing,0,Low,High,Master
+989,Daora Fellwing,0,Low,High,Master
+990,Daora Horn+,0,Low,High,Master
+991,Daora Hardhorn,0,Low,High,Master
+992,Daora Tail,0,Low,High,Master
+993,Daora Lash,0,Low,High,Master
+994,Daora Claw+,0,Low,High,Master
+995,Daora Hardclaw,0,Low,High,Master
+996,Daora Gem,0,Low,High,Master
+997,Chameleos Hide+,0,Low,High,Master
+998,Chameleos Finehide,0,Low,High,Master
+999,Chameleos Spike,0,Low,High,Master
+1000,Chameleos Hardhorn,0,Low,High,Master
+1001,Chameleos Claw+,0,Low,High,Master
+1002,Chameleos Hardclaw,0,Low,High,Master
+1003,Chameleos Tail,0,Low,High,Master
+1004,Chameleos Lash,0,Low,High,Master
+1005,Chameleos Wing,0,Low,High,Master
+1006,Chameleos Fellwing,0,Low,High,Master
+1007,Chameleos Gem,0,Low,High,Master
+1008,Teostra Carapace,0,Low,High,Master
+1009,Teostra Cortex,0,Low,High,Master
+1010,Teostra Mane,0,Low,High,Master
+1011,Teostra Tail,0,Low,High,Master
+1012,Teostra Lash,0,Low,High,Master
+1013,Teostra Horn+,0,Low,High,Master
+1014,Teostra Hardhorn,0,Low,High,Master
+1015,Fire Dragon Scale+,0,Low,High,Master
+1016,Hellfire Shard,0,Low,High,Master
+1017,Teostra Claw+,0,Low,High,Master
+1018,Fire Dragon Hardclaw,0,Low,High,Master
+1019,Teostra Webbing,0,Low,High,Master
+1020,Teostra Fellwing,0,Low,High,Master
+1021,Teostra Powder,0,Low,High,Master
+1022,Teostra Gem,0,Low,High,Master
+1023,Malzeno Shard,0,Low,High,Master
+1024,Malzeno Cortex,0,Low,High,Master
+1025,Malzeno Hardfang,0,Low,High,Master
+1026,Malzeno Fellwing,0,Low,High,Master
+1027,Malzeno Hardhorn,0,Low,High,Master
+1028,Malzeno Tail,0,Low,High,Master
+1029,Bloody Parasite,0,Low,High,Master
+1030,Malzeno Bloodstone,0,Low,High,Master
+1031,Primordial Scale,0,Low,High,Master
+1032,Malzeno Pureplate,0,Low,High,Master
+1033,Malzeno Beautifang,0,Low,High,Master
+1034,Madness Parasite,0,Low,High,Master
+1035,Primordial Tail,0,Low,High,Master
+1036,Malzeno Silverhorn,0,Low,High,Master
+1037,Shining Shieldwing,0,Low,High,Master
+1038,Primordial Bloodstone,0,Low,High,Master
+1039,S. Magala Shard,0,Low,High,Master
+1040,S. Magala Cortex,0,Low,High,Master
+1041,S. Magala Purifier,0,Low,High,Master
+1042,S. Magala Lightwing,0,Low,High,Master
+1043,S. Magala Hardhorn,0,Low,High,Master
+1044,S. Magala Lash,0,Low,High,Master
+1045,S. Magala Mantle,0,Low,High,Master
+1046,Crystal Shard,0,Low,High,Master
+1047,Velkhana Cortex,0,Low,High,Master
+1048,Velkhana Crownhorn,0,Low,High,Master
+1049,Velkhana Hardclaw,0,Low,High,Master
+1050,Velkhana Lash,0,Low,High,Master
+1051,Velkhana Fellwing,0,Low,High,Master
+1052,Velkhana Crystal,0,Low,High,Master
+1053,Rajang Horn+,0,Low,High,Master
+1054,Rajang Hardhorn,0,Low,High,Master
+1055,Rajang Fang+,0,Low,High,Master
+1056,Rajang Hardfang,0,Low,High,Master
+1057,Rajang Blackfur,0,Low,High,Master
+1058,Rajang Wildpelt,0,Low,High,Master
+1059,Rajang Claw+,0,Low,High,Master
+1060,Rajang Hardclaw,0,Low,High,Master
+1061,Rajang Tail,0,Low,High,Master
+1062,Gold Rajang Pelt,0,Low,High,Master
+1063,Gold Rajang Pelt+,0,Low,High,Master
+1064,Rajang Apoplexy,0,Low,High,Master
+1065,Ghoulish Gold Gorer,0,Low,High,Master
+1066,Rajang Heart,0,Low,High,Master
+1067,Bazelgeuse Scale+,0,Low,High,Master
+1068,Bazelgeuse Shard,0,Low,High,Master
+1069,Bazelgeuse Carapace,0,Low,High,Master
+1070,Bazelgeuse Cortex,0,Low,High,Master
+1071,Bazelgeuse Tail,0,Low,High,Master
+1072,Bazelgeuse Flail,0,Low,High,Master
+1073,Bazelgeuse Fuse,0,Low,High,Master
+1074,Bazelgeuse Glandflux,0,Low,High,Master
+1075,Bazelgeuse Talon,0,Low,High,Master
+1076,Bazelgeuse Hardclaw,0,Low,High,Master
+1077,Bazelgeuse Wing,0,Low,High,Master
+1078,Bazelgeuse Fellwing,0,Low,High,Master
+1079,Bazelgeuse Gem,0,Low,High,Master
+1080,Bazelgeuse Mantle,0,Low,High,Master
+1081,Flickering Silvershell,0,Low,High,Master
+1082,Scorching Silverwing,0,Low,High,Master
+1083,Distilled Blast Fluid,0,Low,High,Master
+1084,Ibushi Hide+,0,Low,High,Master
+1085,Ibushi Finehide,0,Low,High,Master
+1086,Ibushi Carapace,0,Low,High,Master
+1087,Ibushi Cortex,0,Low,High,Master
+1088,Ibushi Claw+,0,Low,High,Master
+1089,Ibushi Hardclaw,0,Low,High,Master
+1090,Ibushi Horn+,0,Low,High,Master
+1091,Ibushi Hardhorn,0,Low,High,Master
+1092,Ibushi Windsac,0,Low,High,Master
+1093,Ibushi Windsac+,0,Low,High,Master
+1094,Ibushi Bluespike,0,Low,High,Master
+1095,Ibushi Bluespike+,0,Low,High,Master
+1096,Wind Serpent Orb,0,Low,High,Master
+1097,Wind Dragonsphire,0,Low,High,Master
+1098,Narwa Hide+,0,Low,High,Master
+1099,Narwa Thickhide,0,Low,High,Master
+1100,Narwa Carapace,0,Low,High,Master
+1101,Narwa Claw+,0,Low,High,Master
+1102,Narwa Hardclaw,0,Low,High,Master
+1103,Narwa Horn+,0,Low,High,Master
+1104,Narwa Sparksac,0,Low,High,Master
+1105,Narwa Lighting Sac,0,Low,High,Master
+1106,Narwa Tentacle,0,Low,High,Master
+1107,Narwa Tentacle+,0,Low,High,Master
+1108,Thunder Serpent Orb,0,Low,High,Master
+1109,Scale of Origin,0,Low,High,Master
+1110,Scale of Origin+,0,Low,High,Master
+1111,Horn of Origin,0,Low,High,Master
+1112,Horn of Origin+,0,Low,High,Master
+1113,Orb of Origin,0,Low,High,Master
+1114,Mantle of Origin,0,Low,High,Master
+1115,Shimmering Scale,0,Low,High,Master
+1116,Shimmering Shard,0,Low,High,Master
+1117,Gleaming Shell,0,Low,High,Master
+1118,Glittering Shell,0,Low,High,Master
+1119,Valstrax Claw+,0,Low,High,Master
+1120,Valstrax Talon,0,Low,High,Master
+1121,Valstrax Tail,0,Low,High,Master
+1122,Valstrax Helixtail,0,Low,High,Master
+1123,Rouge Spikewing,0,Low,High,Master
+1124,Rouge Lancewing+,0,Low,High,Master
+1125,Valstrax Spineshell,0,Low,High,Master
+1126,Valstrax Spineshell+,0,Low,High,Master
+1127,Red Dragon Orb,0,Low,High,Master
+1128,Red Dragonsphire,0,Low,High,Master
+1129,Crimson Liquid,0,Low,High,Master
+1130,Seething Crimson Liquid,0,Low,High,Master
+1131,Abyssal Dragonscale,0,Low,High,Master
+1132,Archdemon Backshell,0,Low,High,Master
+1133,Archdemon Wingtalon,0,Low,High,Master
+1134,Archdemon Piercetalon,0,Low,High,Master
+1135,Archdemon Doomhorn,0,Low,High,Master
+1136,Archdemon Tailhook,0,Low,High,Master
+1137,Consumption Parasite,0,Low,High,Master
+1138,Abyssal Dragonsphire,0,Low,High,Master
+1139,Amatsu Cortex,0,Low,High,Master
+1140,Amatsu Heavypleura,0,Low,High,Master
+1141,Amatsu Hardhorn,0,Low,High,Master
+1142,Amatsu Hardclaw,0,Low,High,Master
+1143,Amatsu Stormtail,0,Low,High,Master
+1144,Amatsu Membrane,0,Low,High,Master
+1145,Storm Vesicle Clump,0,Low,High,Master
+1146,Heavenly Dragonsphire,0,Low,High,Master
+1147,Apex Beastclaw,0,Low,High,Master
+1148,Apex Venom Spike,0,Low,High,Master
+1149,Apex Bubblefoam,0,Low,High,Master
+1150,Apex Blaze Sac,0,Low,High,Master
+1151,Apex Curlhorn,0,Low,High,Master
+1152,Apex Shockshell,0,Low,High,Master
+1153,Afflicted Bone,0,Low,High,Master
+1154,Afflicted Hardbone,0,Low,High,Master
+1155,Afflicted Slogbone,0,Low,High,Master
+1156,Afflicted Pelt,0,Low,High,Master
+1157,Afflicted Hide+,0,Low,High,Master
+1158,Afflicted Thickhide,0,Low,High,Master
+1159,Afflicted Monster Bone,0,Low,High,Master
+1160,Afflicted Monster Hardbone,0,Low,High,Master
+1161,Afflicted Monster Slogbone,0,Low,High,Master
+1162,Afflicted Blood,0,Low,High,Master
+1163,Afflicted Dragon Blood,0,Low,High,Master
+1164,Afflicted Pure Blood,0,Low,High,Master
+1165,Afflicted Scale,0,Low,High,Master
+1166,Afflicted Scale+,0,Low,High,Master
+1167,Afflicted Shard,0,Low,High,Master
+1168,Afflicted Shell,0,Low,High,Master
+1169,Afflicted Carapace,0,Low,High,Master
+1170,Afflicted Cortex,0,Low,High,Master
+1171,Afflicted Fang,0,Low,High,Master
+1172,Afflicted Fang+,0,Low,High,Master
+1173,Afflicted Hardfang,0,Low,High,Master
+1174,Afflicted Claw,0,Low,High,Master
+1175,Afflicted Claw+,0,Low,High,Master
+1176,Afflicted Hardclaw,0,Low,High,Master
+1177,Afflicted Dire Horn,0,Low,High,Master
+1178,Afflicted Dire Horn+,0,Low,High,Master
+1179,Afflicted Dire Hardhorn,0,Low,High,Master
+1180,Afflicted Dire Bone,0,Low,High,Master
+1181,Afflicted Dire Hardbone,0,Low,High,Master
+1182,Afflicted Dire Slogbone,0,Low,High,Master
+1183,Afflicted Dire Scale,0,Low,High,Master
+1184,Afflicted Dire Scale+,0,Low,High,Master
+1185,Afflicted Dire Shard,0,Low,High,Master
+1186,Afflicted Dire Shell,0,Low,High,Master
+1187,Afflicted Dire Carapace,0,Low,High,Master
+1188,Afflicted Dire Cortex,0,Low,High,Master
+1189,Afflicted Dire Claw,0,Low,High,Master
+1190,Afflicted Dire Claw+,0,Low,High,Master
+1191,Afflicted Dire Hardclaw,0,Low,High,Master
+1192,Afflicted Dire Fang,0,Low,High,Master
+1193,Afflicted Dire Fang+,0,Low,High,Master
+1194,Afflicted Dire Hardfang,0,Low,High,Master
+1195,Afflicted Dire Wing,0,Low,High,Master
+1196,Afflicted Dire Wing+,0,Low,High,Master
+1197,Afflicted Dire Fellwing,0,Low,High,Master
+1198,Afflicted Dire Blood,0,Low,High,Master
+1199,Afflicted Dire Dragon Blood,0,Low,High,Master
+1200,Afflicted Dire Darkblood,0,Low,High,Master
+1201,Risen Dragonbone,0,Low,High,Master
+1202,Risen Dragonbone+,0,Low,High,Master
+1203,Risen Slogbone,0,Low,High,Master
+1204,Risen Dragon Blood,0,Low,High,Master
+1205,Risen Dragon Pureblood,0,Low,High,Master
+1206,Risen Dragon Thickblood,0,Low,High,Master
+1207,Dango Ticket,0,Low,High,Master
+1208,Lottery Ticket,0,Low,High,Master
+1209,Lagniapple,0,Low,High,Master
+1210,Eurekacorn,0,Low,High,Master
+1211,Melding Nectar,0,Low,High,Master
+1212,Melding Honey,0,Low,High,Master
+1213,Melding Pudding,0,Low,High,Master
+1214,Melding Blood,0,Low,High,Master
+1215,MP Accelerant,0,Low,High,Master
+1216,Commendation,0,Low,High,Master
+1217,High Commendation,0,Low,High,Master
+1218,Conqueror's Seal,0,Low,High,Master
+1219,Outfit Voucher,0,Low,High,Master
+1220,Outfit Voucher+,0,Low,High,Master
+1221,Buddy Ticket,0,Low,High,Master
+1222,Kamura Ticket,0,Low,High,Master
+1223,Guild Ticket,0,Low,High,Master
+1224,Elgado Ticket,0,Low,High,Master
+1225,Anomaly Ticket,0,Low,High,Master
+1226,Friend Voucher,0,Low,High,Master
+1227,Defender Ticket 1,0,Low,High,Master
+1228,Defender Ticket 2,0,Low,High,Master
+1229,Defender Ticket 3,0,Low,High,Master
+1230,Defender Ticket 4,0,Low,High,Master
+1231,Defender Ticket 5,0,Low,High,Master
+1232,Defender Ticket 6,0,Low,High,Master
+1233,Defender Ticket 7,0,Low,High,Master
+1234,Defender Ticket 8,0,Low,High,Master
+1235,Defender Ticket 9,0,Low,High,Master
+1236,Royal Order Certificate I,0,Low,High,Master
+1237,Royal Order Certificate II,0,Low,High,Master
+1238,Royal Order Certificate III,0,Low,High,Master
+1239,Amber Essence,0,Low,High,Master
+1240,Amber Essence+,0,Low,High,Master
+1241,Prime Amber Essence,0,Low,High,Master
+1242,Royal Amber Essence,0,Low,High,Master
+1243,Pure Amber Essence,0,Low,High,Master
+1244,Chameleos Risegem,0,Low,High,Master
+1245,Daora Risegem,0,Low,High,Master
+1246,Teostra Risegem,0,Low,High,Master
+1247,Valstrax Risegem,0,Low,High,Master
+1248,Shagaru Risegem,0,Low,High,Master
+1249,Kulu Coin,0,Low,High,Master
+1250,Barroth Coin,0,Low,High,Master
+1251,Nargacuga Coin,0,Low,High,Master
+1252,Barioth Coin,0,Low,High,Master
+1253,Rajang Coin,0,Low,High,Master
+1254,Bazelgeuse Coin,0,Low,High,Master
+1255,Hermitaur Coin,0,Low,High,Master
+1256,Bishaten Coin,0,Low,High,Master
+1257,Garangolm Coin,0,Low,High,Master
+1258,Lunagaron Coin,0,Low,High,Master
+1259,Espinas Coin,0,Low,High,Master
+1260,Furious Rajang Coin,0,Low,High,Master
+1261,Pinnacle Coin,0,Low,High,Master
+1262,Hunter King Coin,0,Low,High,Master
+1263,Ace Hunter Coin,0,Low,High,Master
+1264,Rager Coin,0,Low,High,Master
+1265,Hero King Coin,0,Low,High,Master
+1266,Investigation Coin,0,Low,High,Master
+1267,Goldenfry,0,Low,High,Master
+1268,Bhernastone,0,Low,High,Master
+1269,Dundormarin,0,Low,High,Master
+1270,Loc Lac Ore,0,Low,High,Master
+1271,Val Habar Quartz,0,Low,High,Master
+1272,Minegardenite,0,Low,High,Master
+1273,Steel Egg,0,Low,High,Master
+1274,Silver Egg,0,Low,High,Master
+1275,Golden Egg,0,Low,High,Master
+1276,Platinum Egg,0,Low,High,Master
+1277,Haiku: In Song,0,Low,High,Master
+1278,F Ninja Belt,0,Low,High,Master
+1279,Tea Shop Cloth,0,Low,High,Master
+1280,Old Wrestler Print,0,Low,High,Master
+1281,Spa Scene: Sash,0,Low,High,Master
+1282,Spa Scene: Hairpin,0,Low,High,Master
+1283,Spa Scene: Clip,0,Low,High,Master
+1284,Spa Scene: Kimono,0,Low,High,Master
+1285,Ball of Soft Wool,0,Low,High,Master
+1286,Sea Chart (Copy),0,Low,High,Master
+1287,Prima Bherna Eggplant,0,Low,High,Master
+1288,4-Part Souvenir,0,Low,High,Master
+1289,Old Message,0,Low,High,Master
+1290,Wisdom Crystal,0,Low,High,Master
+1291,Wild Dark Leather,0,Low,High,Master
+1292,Shady Crystal,0,Low,High,Master
+1293,Disguise Device,0,Low,High,Master
+1294,Celestial Scroll,0,Low,High,Master
+1295,Satsui no Hado,0,Low,High,Master
+1296,Dog Bolts,0,Low,High,Master
+1297,Broken Knight Armor,0,Low,High,Master
+1298,Diving Ticket,0,Low,High,Master
+1299,Winter Star Ticket,0,Low,High,Master
+1300,Ore of Origin,0,Low,High,Master
+1301,Appreciation Ticket,0,Low,High,Master
+1302,Spring Blossom Ticket,0,Low,High,Master
+1303,Buddy Ring,0,Low,High,Master
+1304,Hunter Ring,0,Low,High,Master
+1305,Azure Era Seal,0,Low,High,Master
+1306,Azure Era Gem,0,Low,High,Master
+1307,Crimson Crystal Ticket,0,Low,High,Master
+1308,Ocean Ticket,0,Low,High,Master
+1309,Steam Ticket,0,Low,High,Master
+1310,Glasses Ticket,0,Low,High,Master
+1311,Thief's Calling Card,0,Low,High,Master
+1312,Black Winged Ears Ticket,0,Low,High,Master
+1313,Canyne Mask Ticket,0,Low,High,Master
+1314,Ancient Fragment,0,Low,High,Master
+1315,Bandana Ticket,0,Low,High,Master
+1316,Fluffy Ticket,0,Low,High,Master
+1317,Small Flower Pot,0,Low,High,Master
+1318,Bunny Ears Ticket,0,Low,High,Master
+1319,Buff Badge,0,Low,High,Master
+1320,Sackcloth,0,Low,High,Master
+1321,Heavenly Silk,0,Low,High,Master
+1322,Blood Ticket,0,Low,High,Master
+1323,Buff Badge+,0,Low,High,Master
+1324,Light Foreign Drawings,0,Low,High,Master
+1325,Torn Foreign Drawings,0,Low,High,Master
+1326,Numerical Foreign Drawings,0,Low,High,Master
+1327,Coastal Foreign Drawings,0,Low,High,Master
+1328,Treasured Foreign Drawings,0,Low,High,Master
+1329,Noble Foreign Drawings,0,Low,High,Master
+1330,Charming Foreign Drawings,0,Low,High,Master
+1331,Crystalized Foreign Drawings,0,Low,High,Master
+1332,Humble Scrap,0,Low,High,Master
+1333,Humble Scrap+,0,Low,High,Master
+1334,Heavy Humble Scrap,0,Low,High,Master
+1335,Ore Scrap,0,Low,High,Master
+1336,Ore Scrap+,0,Low,High,Master
+1337,Heavy Ore Scrap,0,Low,High,Master
+1338,Insect Scrap,0,Low,High,Master
+1339,Insect Scrap+,0,Low,High,Master
+1340,Heavy Insect Scrap,0,Low,High,Master
+1341,Fur Scrap,0,Low,High,Master
+1342,Fur Scrap+,0,Low,High,Master
+1343,Heavy Fur Scrap,0,Low,High,Master
+1344,Bone Scrap,0,Low,High,Master
+1345,Bone Scrap+,0,Low,High,Master
+1346,Heavy Bone Scrap,0,Low,High,Master
+1347,Slagtoth Scrap,0,Low,High,Master
+1348,Slagtoth Scrap+,0,Low,High,Master
+1349,Rhenoplos Scrap,0,Low,High,Master
+1350,Rhenoplos Scrap+,0,Low,High,Master
+1351,Heavy Rhenoplos Scrap,0,Low,High,Master
+1352,Bnahabra Scrap,0,Low,High,Master
+1353,Bnahabra Scrap+,0,Low,High,Master
+1354,Heavy Bnahabra Scrap,0,Low,High,Master
+1355,Jaggi Scrap,0,Low,High,Master
+1356,Jaggi Scrap+,0,Low,High,Master
+1357,Heavy G. Jaggi Scrap,0,Low,High,Master
+1358,Izuchi Scrap,0,Low,High,Master
+1359,Izuchi Scrap+,0,Low,High,Master
+1360,Heavy Izuchi Scrap,0,Low,High,Master
+1361,Baggi Scrap,0,Low,High,Master
+1362,Baggi Scrap+,0,Low,High,Master
+1363,Heavy G. Baggi Scrap,0,Low,High,Master
+1364,Kulu-Ya-Ku Scrap,0,Low,High,Master
+1365,Kulu-Ya-Ku Scrap+,0,Low,High,Master
+1366,Heavy Kulu Scrap,0,Low,High,Master
+1367,Wroggi Scrap,0,Low,High,Master
+1368,Wroggi Scrap+,0,Low,High,Master
+1369,Heavy G. Wroggi Scrap,0,Low,High,Master
+1370,Arzuros Scrap,0,Low,High,Master
+1371,Arzuros Scrap+,0,Low,High,Master
+1372,Heavy Arzuros Scrap,0,Low,High,Master
+1373,Lagombi Scrap,0,Low,High,Master
+1374,Lagombi Scrap+,0,Low,High,Master
+1375,Heavy Lagombi Scrap,0,Low,High,Master
+1376,Volvidon Scrap,0,Low,High,Master
+1377,Volvidon Scrap+,0,Low,High,Master
+1378,Heavy Volvidon Scrap,0,Low,High,Master
+1379,Aknosom Scrap,0,Low,High,Master
+1380,Aknosom Scrap+,0,Low,High,Master
+1381,Heavy Aknosom Scrap,0,Low,High,Master
+1382,Royal Ludroth Scrap,0,Low,High,Master
+1383,Royal Ludroth Scrap+,0,Low,High,Master
+1384,Heavy R. Ludroth Scrap,0,Low,High,Master
+1385,Barroth Scrap,0,Low,High,Master
+1386,Barroth Scrap+,0,Low,High,Master
+1387,Heavy Barroth Scrap,0,Low,High,Master
+1388,Heavy Hermitaur Scrap,0,Low,High,Master
+1389,Khezu Scrap,0,Low,High,Master
+1390,Khezu Scrap+,0,Low,High,Master
+1391,Heavy Khezu Scrap,0,Low,High,Master
+1392,Tetranadon Scrap,0,Low,High,Master
+1393,Tetranadon Scrap+,0,Low,High,Master
+1394,Heavy Tetra Scrap,0,Low,High,Master
+1395,Bishaten Scrap,0,Low,High,Master
+1396,Bishaten Scrap+,0,Low,High,Master
+1397,Heavy Bishaten Scrap,0,Low,High,Master
+1398,Pukei Scrap,0,Low,High,Master
+1399,Pukei Scrap+,0,Low,High,Master
+1400,Heavy Pukei-Pukei Scrap,0,Low,High,Master
+1401,Jyura Scrap+,0,Low,High,Master
+1402,Heavy Jyura Scrap,0,Low,High,Master
+1403,Basarios Scrap,0,Low,High,Master
+1404,Basarios Scrap+,0,Low,High,Master
+1405,Heavy Basarios Scrap,0,Low,High,Master
+1406,Somnacanth Scrap,0,Low,High,Master
+1407,Somnacanth Scrap+,0,Low,High,Master
+1408,Heavy Somna Scrap,0,Low,High,Master
+1409,Rathian Scrap,0,Low,High,Master
+1410,Rathian Scrap+,0,Low,High,Master
+1411,Heavy Rathian Scrap,0,Low,High,Master
+1412,Barioth Scrap,0,Low,High,Master
+1413,Barioth Scrap+,0,Low,High,Master
+1414,Heavy Barioth Scrap,0,Low,High,Master
+1415,Kadachi Scrap,0,Low,High,Master
+1416,Kadachi Scrap+,0,Low,High,Master
+1417,Heavy Kadachi Scrap,0,Low,High,Master
+1418,Magnamalo Scrap,0,Low,High,Master
+1419,Magnamalo Scrap+,0,Low,High,Master
+1420,Heavy Magna Scrap,0,Low,High,Master
+1421,Heavy Resentment Scrap,0,Low,High,Master
+1422,Anjanath Scrap,0,Low,High,Master
+1423,Anjanath Scrap+,0,Low,High,Master
+1424,Heavy Anjanath Scrap,0,Low,High,Master
+1425,Nargacuga Scrap,0,Low,High,Master
+1426,Nargacuga Scrap+,0,Low,High,Master
+1427,Heavy Nargacuga Scrap,0,Low,High,Master
+1428,Mizutsune Scrap,0,Low,High,Master
+1429,Mizutsune Scrap+,0,Low,High,Master
+1430,Heavy Mizutsune Scrap,0,Low,High,Master
+1431,Goss Harag Scrap,0,Low,High,Master
+1432,Goss Harag Scrap+,0,Low,High,Master
+1433,Heavy Goss Scrap,0,Low,High,Master
+1434,Garangolm Scrap,0,Low,High,Master
+1435,Heavy Shogun Scrap,0,Low,High,Master
+1436,Rathalos Scrap,0,Low,High,Master
+1437,Rathalos Scrap+,0,Low,High,Master
+1438,Heavy Rathalos Scrap,0,Low,High,Master
+1439,Almudron Scrap,0,Low,High,Master
+1440,Almudron Scrap+,0,Low,High,Master
+1441,Heavy Almudron Scrap,0,Low,High,Master
+1442,Zinogre Scrap,0,Low,High,Master
+1443,Zinogre Scrap+,0,Low,High,Master
+1444,Heavy Zinogre Scrap,0,Low,High,Master
+1445,Heavy Lunagaron Scrap,0,Low,High,Master
+1446,Heavy Astalos Scrap,0,Low,High,Master
+1447,Heavy Espinas Scrap,0,Low,High,Master
+1448,Heavy G. Magala Scrap,0,Low,High,Master
+1449,Heavy Chaotic Scrap,0,Low,High,Master
+1450,Heavy Seregios Scrap,0,Low,High,Master
+1451,Tigrex Scrap,0,Low,High,Master
+1452,Tigrex Scrap+,0,Low,High,Master
+1453,Heavy Tigrex Scrap,0,Low,High,Master
+1454,Diablos Scrap,0,Low,High,Master
+1455,Diablos Scrap+,0,Low,High,Master
+1456,Heavy Diablos Scrap,0,Low,High,Master
+1457,Rakna-Kadaki Scrap+,0,Low,High,Master
+1458,Heavy Rakna Scrap,0,Low,High,Master
+1459,Kushala Daora Scrap+,0,Low,High,Master
+1460,Heavy K. Daora Scrap,0,Low,High,Master
+1461,Chameleos Scrap+,0,Low,High,Master
+1462,Heavy Chameleos Scrap,0,Low,High,Master
+1463,Teostra Scrap+,0,Low,High,Master
+1464,Heavy Teostra Scrap,0,Low,High,Master
+1465,Malzeno Scrap,0,Low,High,Master
+1466,Heavy Primordial Scrap,0,Low,High,Master
+1467,Heavy S. Magala Scrap,0,Low,High,Master
+1468,Heavy Velkhana Scrap,0,Low,High,Master
+1469,Rajang Scrap+,0,Low,High,Master
+1470,Heavy Rajang Scrap,0,Low,High,Master
+1471,Bazel Scrap+,0,Low,High,Master
+1472,Heavy Bazel Scrap,0,Low,High,Master
+1473,Heavy Seething Scrap,0,Low,High,Master
+1474,Ibushi Scrap+,0,Low,High,Master
+1475,Heavy Ibushi Scrap,0,Low,High,Master
+1476,Narwa Scrap+,0,Low,High,Master
+1477,Heavy Narwa Scrap,0,Low,High,Master
+1478,Valstrax Scrap+,0,Low,High,Master
+1479,Heavy Valstrax Scrap,0,Low,High,Master
+1480,Heavy Archdemon Scrap,0,Low,High,Master
+1481,Heavy Amatsu Scrap,0,Low,High,Master
+1482,Izuchi Scroll,0,Low,High,Master
+1483,Baggi Scroll,0,Low,High,Master
+1484,Kulu Scroll,0,Low,High,Master
+1485,Wroggi Scroll,0,Low,High,Master
+1486,Arzuros Scroll,0,Low,High,Master
+1487,Lagombi Scroll,0,Low,High,Master
+1488,Volvidon Scroll,0,Low,High,Master
+1489,Aknosom Scroll,0,Low,High,Master
+1490,Ludroth Scroll,0,Low,High,Master
+1491,Barroth Scroll,0,Low,High,Master
+1492,Daimyo Hermitaur Scroll,0,Low,High,Master
+1493,Khezu Scroll,0,Low,High,Master
+1494,Tetranadon Scroll,0,Low,High,Master
+1495,Bishaten Scroll,0,Low,High,Master
+1496,Blood Orange Bishaten Scroll,0,Low,High,Master
+1497,Pukei Scroll,0,Low,High,Master
+1498,Jyura Scroll,0,Low,High,Master
+1499,Basarios Scroll,0,Low,High,Master
+1500,Somna Scroll,0,Low,High,Master
+1501,Aurora Somnacanth Scroll,0,Low,High,Master
+1502,Rathian Scroll,0,Low,High,Master
+1503,Gold Rathian Scroll,0,Low,High,Master
+1504,Barioth Scroll,0,Low,High,Master
+1505,Kadachi Scroll,0,Low,High,Master
+1506,Magnamalo Scroll,0,Low,High,Master
+1507,Scorned Magnamalo Scroll,0,Low,High,Master
+1508,Anjanath Scroll,0,Low,High,Master
+1509,Nargacuga Scroll,0,Low,High,Master
+1510,Lucent Nargacuga Scroll,0,Low,High,Master
+1511,Mizutsune Scroll,0,Low,High,Master
+1512,Violet Mizutsune Scroll,0,Low,High,Master
+1513,Goss Scroll,0,Low,High,Master
+1514,Garangolm Scroll,0,Low,High,Master
+1515,Shogun Ceanataur Scroll,0,Low,High,Master
+1516,Rathalos Scroll,0,Low,High,Master
+1517,Silver Rathalos Scroll,0,Low,High,Master
+1518,Almudron Scroll,0,Low,High,Master
+1519,Magma Almudron Scroll,0,Low,High,Master
+1520,Zinogre Scroll,0,Low,High,Master
+1521,Lunagaron Scroll,0,Low,High,Master
+1522,Astalos Scroll,0,Low,High,Master
+1523,Espinas Scroll,0,Low,High,Master
+1524,Flaming Espinas Scroll,0,Low,High,Master
+1525,Gore Magala Scroll,0,Low,High,Master
+1526,Chaotic Gore Magala Scroll,0,Low,High,Master
+1527,Seregios Scroll,0,Low,High,Master
+1528,Tigrex Scroll,0,Low,High,Master
+1529,Diablos Scroll,0,Low,High,Master
+1530,Rakna-Kadaki Scroll,0,Low,High,Master
+1531,Pyre Rakna-Kadaki Scroll,0,Low,High,Master
+1532,Daora Scroll,0,Low,High,Master
+1533,Risen Kushala Daora Scroll,0,Low,High,Master
+1534,Chameleos Scroll,0,Low,High,Master
+1535,Risen Chameleos Scroll,0,Low,High,Master
+1536,Teostra Scroll,0,Low,High,Master
+1537,Risen Teostra Scroll,0,Low,High,Master
+1538,Malzeno Scroll,0,Low,High,Master
+1539,Malzeno Scroll+,0,Low,High,Master
+1540,Shagaru Magala Scroll,0,Low,High,Master
+1541,Risen Shagaru Magala Scroll,0,Low,High,Master
+1542,Velkhana Scroll,0,Low,High,Master
+1543,Rajang Scroll,0,Low,High,Master
+1544,Furious Rajang Scroll,0,Low,High,Master
+1545,Bazel Scroll,0,Low,High,Master
+1546,Seething Bazelgeuse Scroll,0,Low,High,Master
+1547,Ibushi Scroll,0,Low,High,Master
+1548,Narwa Scroll,0,Low,High,Master
+1549,Valstrax Scroll,0,Low,High,Master
+1550,Risen Valstrax Scroll,0,Low,High,Master
+1551,The Archdemon,0,Low,High,Master
+1552,Amatsu Scroll,0,Low,High,Master
+1553,Apex Arzuros Scroll,0,Low,High,Master
+1554,Apex Rathian Scroll,0,Low,High,Master
+1555,Apex Mizutsune Scroll,0,Low,High,Master
+1556,Apex Rathalos Scroll,0,Low,High,Master
+1557,Apex Diablos Scroll,0,Low,High,Master
+1558,Apex Zinogre Scroll,0,Low,High,Master
+1559,The Leader,0,Low,High,Master
+1560,Fast Friends,0,Low,High,Master
+1561,Slayer of Malice,0,Low,High,Master
+1562,Moonlit Night,0,Low,High,Master
+1563,The Showdown,0,Low,High,Master
+1564,Flag Ornament,0,Low,High,Master
+1565,Sun Princess,0,Low,High,Master
+1566,Valiant Knight,0,Low,High,Master
+1567,Dappled Daytime,0,Low,High,Master
+1568,Deadly Tracker,0,Low,High,Master
+1569,The Oppression,0,Low,High,Master
+1570,The Abyss,0,Low,High,Master
+1571,Lucky Felyne,0,Low,High,Master
+1572,Wheeled Canyne Toy,0,Low,High,Master
+1573,Bombadgy Pot,0,Low,High,Master
+1574,Kamura Twins,0,Low,High,Master
+1575,Golden Hojo Cast,0,Low,High,Master
+1576,Cohoot Lottery,0,Low,High,Master
+1577,Mini Toadversary,0,Low,High,Master
+1578,Mini Submarine,0,Low,High,Master
+1579,Felyne Daruma,0,Low,High,Master
+1580,Moofy Doll,0,Low,High,Master
+1581,Pure Machalite,0,Low,High,Master
+1582,Crystal Cluster,0,Low,High,Master
+1583,Kingdom Longship,0,Low,High,Master
+1584,Cohootrioshka,0,Low,High,Master
+1585,Toy Spelunker,0,Low,High,Master
+1586,Regalfin Pouch,0,Low,High,Master
+1587,Gowngoat Bobbler,0,Low,High,Master
+1588,Massive Copal,0,Low,High,Master
+1589,Gargolda Statue,0,Low,High,Master
+1590,Goocoo Plush (Raincoat),0,Low,High,Master
+1591,Poogie Plush (Emperor's Duds),0,Low,High,Master
+1592,Goocoo Plush (Velocidrome),0,Low,High,Master
+1593,Poogie Plush (Cool),0,Low,High,Master
+1594,Goocoo Plush (Scarlet),0,Low,High,Master
+1595,Poogie Plush (Memorial Stripes),0,Low,High,Master
+1596,Goocoo Plush (Princess),0,Low,High,Master
+1597,Poogie Plush (Maiden),0,Low,High,Master
+1598,Arzuros Carving,0,Low,High,Master
+1599,Magnamalo Carving,0,Low,High,Master
+1600,Tetranadon Carving,0,Low,High,Master
+1601,Goss Harag Carving,0,Low,High,Master
+1602,Bishaten Carving,0,Low,High,Master
+1603,Somnacanth Carving,0,Low,High,Master
+1604,Izuchi Carving,0,Low,High,Master
+1605,Almudron Carving,0,Low,High,Master
+1606,Aknosom Carving,0,Low,High,Master
+1607,Rakna-Kadaki Carving,0,Low,High,Master
+1608,Ibushi Carving,0,Low,High,Master
+1609,Narwa Carving,0,Low,High,Master
+1610,Amatsu Carving,0,Low,High,Master
+1611,Daimyo Hermitaur Statue,0,Low,High,Master
+1612,Astalos Statue,0,Low,High,Master
+1613,Garangolm Statue,0,Low,High,Master
+1614,Lunagaron Statue,0,Low,High,Master
+1615,Shogun Ceanataur Statue,0,Low,High,Master
+1616,Espinas Statue,0,Low,High,Master
+1617,Malzeno Statue,0,Low,High,Master
+1618,Malzeno Statue+,0,Low,High,Master
+1619,Archfiend Statue,0,Low,High,Master
+1620,Velkhana Statue,0,Low,High,Master
+1621,Sonic Figurine,0,Low,High,Master
+1622,Knuckles Figurine,0,Low,High,Master
+1623,Tails Figurine,0,Low,High,Master
+1624,Unique Mushroom,0,Low,High,Master
+1625,Choice Mushroom,0,Low,High,Master
+1626,Pricey Shroom,0,Low,High,Master
+1627,Exquisite Mushroom,0,Low,High,Master
+1628,Firelantern,0,Low,High,Master
+1629,Wisplantern,0,Low,High,Master
+1630,Phantolantern,0,Low,High,Master
+1631,Confragralantern,0,Low,High,Master
+1632,Super Shoot,0,Low,High,Master
+1633,Choice Shoot,0,Low,High,Master
+1634,Pricey Shoot,0,Low,High,Master
+1635,Exquisite Sprout,0,Low,High,Master
+1636,Cool Frostcone,0,Low,High,Master
+1637,Gelid Frostcone,0,Low,High,Master
+1638,Bitter Frostcone,0,Low,High,Master
+1639,Arctic Frostcone,0,Low,High,Master
+1640,Raftshell,0,Low,High,Master
+1641,Boatshell,0,Low,High,Master
+1642,Shipshell,0,Low,High,Master
+1643,Great Shipshell,0,Low,High,Master
+1644,Foreign Coin,0,Low,High,Master
+1645,Royal Mint Coin,0,Low,High,Master
+1646,Mysterious Coin,0,Low,High,Master
+1647,Ancient Coin,0,Low,High,Master
+1648,Simple Prism,0,Low,High,Master
+1649,Misty Prism,0,Low,High,Master
+1650,Cascade Prism,0,Low,High,Master
+1651,Icevoid Prism,0,Low,High,Master
+1652,Hearty Pitcher,0,Low,High,Master
+1653,Gourmet Pitcher,0,Low,High,Master
+1654,Tripoint Pitcher,0,Low,High,Master
+1655,Penta Pitcher,0,Low,High,Master
+1656,Royal Rhino,0,Low,High,Master
+1657,King Rhino,0,Low,High,Master
+1658,Divine Rhino,0,Low,High,Master
+1659,Transcendent Rhino,0,Low,High,Master
+1660,Bauble Cactus,0,Low,High,Master
+1661,Jewel Cactus,0,Low,High,Master
+1662,Kingly Cactus,0,Low,High,Master
+1663,Emperor Cactus,0,Low,High,Master
+1664,Tropical Berry,0,Low,High,Master
+1665,Desert Berry,0,Low,High,Master
+1666,Lava Berry,0,Low,High,Master
+1667,Blaze Berry,0,Low,High,Master
+1668,Sand Rose,0,Low,High,Master
+1669,Rock Rose,0,Low,High,Master
+1670,Gaia Rose,0,Low,High,Master
+1671,Cosmo Rose,0,Low,High,Master
+1672,Coal,0,Low,High,Master
+1673,Volatile Coal,0,Low,High,Master
+1674,Inflammable Coal,0,Low,High,Master
+1675,Aeonian Coal,0,Low,High,Master
+1676,Chalcedony Bone,0,Low,High,Master
+1677,Chalcedony Greatbone,0,Low,High,Master
+1678,Chalcedony Skull,0,Low,High,Master
+1679,Chalcedony Bonemass,0,Low,High,Master
+1680,Bismuth Fragment,0,Low,High,Master
+1681,Bismuth Prism,0,Low,High,Master
+1682,Bismuth Augite,0,Low,High,Master
+1683,Iridescent Bismuth Prism,0,Low,High,Master
+1684,Jungle Mushroom,0,Low,High,Master
+1685,Prized Mushroom,0,Low,High,Master
+1686,Wildwood Fern,0,Low,High,Master
+1687,Prime Fern,0,Low,High,Master
+1688,Pearl Snail,0,Low,High,Master
+1689,Golden Snail,0,Low,High,Master
+1690,Glacial Geode,0,Low,High,Master
+1691,Iridescent Geode,0,Low,High,Master
+1692,Amber Copal,0,Low,High,Master
+1693,Godbug Copal,0,Low,High,Master
+1694,Worn Tableware,0,Low,High,Master
+1695,Antique Tableware,0,Low,High,Master
+1696,Crimsonfish,0,Low,High,Master
+1697,Goldenfish,0,Low,High,Master
+1698,Platinumfish,0,Low,High,Master
+1699,Brocadefish,0,Low,High,Master
+1700,King Brocadefish,0,Low,High,Master
+1701,Supreme Brocadefish,0,Low,High,Master
+1702,White Liver,0,Low,High,Master
+1703,Popo Tongue,0,Low,High,Master
+1704,Slagtoth Oil,0,Low,High,Master
+1705,Monster Guts,0,Low,High,Master
+1706,Ripened Mushroom,0,Low,High,Master
+1707,Fine Stomach,0,Low,High,Master
+1708,Secret Stash,0,Low,High,Master
+1709,Round Acorn,0,Low,High,Master
+1710,Gargwa Guano,0,Low,High,Master
+1711,Gargwa Egg,0,Low,High,Master
+1712,Gold Gargwa Egg,0,Low,High,Master
+1713,Carapaceon Brains+,0,Low,High,Master
+1714,Gowngoat Fleeceball,0,Low,High,Master
+1715,Wyvern Tear,0,Low,High,Master
+1716,Large Wyvern Tear,0,Low,High,Master
+1717,Beast Tear,0,Low,High,Master
+1718,Large Beast Tear,0,Low,High,Master
+1719,Drone Substance,0,Low,High,Master
+1720,Queen Substance,0,Low,High,Master
+1721,Dragon Treasure,0,Low,High,Master
+1722,Old Dragon Treasure,0,Low,High,Master
+1723,Shiny Nacre,0,Low,High,Master
+1724,Glittering Nacre,0,Low,High,Master
+1725,Shimmering Nacre,0,Low,High,Master
+1726,Crab Pearl+,0,Low,High,Master
+1727,Fabled Spice,0,Low,High,Master
+1728,Legendary Herb,0,Low,High,Master
+1729,Sun Goddess Picture,0,Low,High,Master
+1730,Wyvern Egg,0,Low,High,Master
+1731,Quality Wyvern Egg,0,Low,High,Master
+1732,Supreme Wyvern Egg,0,Low,High,Master
+1733,Frost Fossil,0,Low,High,Master
+1734,Big Frost Fossil,0,Low,High,Master
+1735,Giant Frost Fossil,0,Low,High,Master
+1736,Herbivore Egg,0,Low,High,Master
+1737,Rhenoplos Egg+,0,Low,High,Master
+1738,Premium Herbivore Egg,0,Low,High,Master
+1739,Laffresia,0,Low,High,Master
+1740,Alaffresia,0,Low,High,Master
+1741,Giant Laffresia,0,Low,High,Master
+1742,Bismuth Chunk,0,Low,High,Master
+1743,Big Bismuth Chunk,0,Low,High,Master
+1744,Bigger Bismuth Chunk,0,Low,High,Master
+1745,Premium Wyvern Egg,0,Low,High,Master
+1746,Moon Drop,0,Low,High,Master
+1747,Ring,0,Low,High,Master
+1748,Great Wirebug,0,Low,High,Master
+1749,Ballista Shot,0,Low,High,Master
+1750,Crag Shot,0,Low,High,Master
+1751,Retreat Shot,0,Low,High,Master
+1752,Cannon Ammo,0,Low,High,Master
+1753,C. Thunder Ammo,0,Low,High,Master
+1754,Flaming Shot,0,Low,High,Master
+1755,Flaming Beam,0,Low,High,Master
+1756,Q. Rapid Shot,0,Low,High,Master
+1757,Q. Cluster Shot,0,Low,High,Master
+1758,Silkbind Shot,0,Low,High,Master
+1759,C. Piercing Ammo,0,Low,High,Master
+1760,2x Ballista Shot,0,Low,High,Master
+1761,3x Ballista Shot,0,Low,High,Master
+1762,2x Cannon Ammo,0,Low,High,Master
+1763,2x Cannon Ammo+,0,Low,High,Master
+1764,Silkbinder Shot,0,Low,High,Master
+1765,[Trinket],0,Low,High,Master
