@@ -6,6 +6,7 @@ package monster_hunter;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -18,7 +19,6 @@ import xml_api.StAX_Write;
  * @author howan
  */
 public class fileHandler {
-
 	private final String basePath = new File("").getAbsolutePath().concat("\\src\\main\\java\\monster_hunter");
 	private final String XMLItems = "\\rawdata\\Items_Test.xml";
 	//private String master_Items = "\\rawdata\\Items_master.xml";
@@ -43,15 +43,13 @@ public class fileHandler {
 	public void readXML(File file) {
 		StAX_Read read = new StAX_Read();
 		read.Read_Main(file);
-		
 	}
 	
 	public void writeXML(){
 		StAX_Write write = new StAX_Write();
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		write.Write_Main(out, new File(basePath + XMLItems));
-
-	}
+  }
 }
 
 

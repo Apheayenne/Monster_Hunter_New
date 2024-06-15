@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  * @author howan
  */
 public class Util {
-	
+
 	public static String padRight(String text, int totalLength){
 		int length = text.length();
 		int diff = totalLength-length;

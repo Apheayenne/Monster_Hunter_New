@@ -12,7 +12,7 @@ import java.util.LinkedHashMap;
  * @author howan
  */
 public class ItemMap extends HashMap<String, Item> {
-	private static LinkedHashMap<String, Item> itemMap;
+  private static LinkedHashMap<String, Item> itemMap;
 
 	public static LinkedHashMap<String, Item> getInstance(){
 		if (itemMap == null){

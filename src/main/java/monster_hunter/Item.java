@@ -21,6 +21,7 @@ public class Item {
 		this.Name = "";
 		this.Quantity = -1;
 		this.rankings = new ArrayList<>();
+
 	}
 	
 //  ------------------------------------------
@@ -46,6 +47,7 @@ public class Item {
 //  ------------------------------------------
 	
 	/**
+
 	 * Get the value of NAME
 	 * @return the value of NAME
 	 */
@@ -72,7 +74,6 @@ public class Item {
 		return Quantity;
 	}
 
-
 	/**
 	 * Set the value of quantity
 	 * @param quantity new value of quantity
@@ -98,6 +99,7 @@ public class Item {
 			}
 		} catch (NegativeNewQuantity nnq){
 			Logger.getLogger(fileHandler.class.getName()).log(Level.SEVERE, nnq.getMessage(), nnq);
+
 		}
 	}
 	
