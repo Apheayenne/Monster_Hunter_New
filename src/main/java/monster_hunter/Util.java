@@ -4,13 +4,15 @@
  */
 package monster_hunter;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author howan
  */
 public class Util {
-	
-	
+
 	public static String padRight(String text, int totalLength){
 		int length = text.length();
 		int diff = totalLength-length;
@@ -27,12 +29,7 @@ public class Util {
 		return text.concat(padding);
 	}
 	
-	public static void print(String text){
+	public static void print(Object text){
 		System.out.println(text);
 	}
-	
-	public static void printXML(String method, String element, int length){
-		print(padRight(method + " - " + element + ": ", length));
-	}
-	
 }

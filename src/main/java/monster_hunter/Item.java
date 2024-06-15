@@ -2,7 +2,8 @@
 package monster_hunter;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import monster_hunter.Exceptions.*;
 
 
@@ -11,6 +12,7 @@ import monster_hunter.Exceptions.*;
  * @author howan
  */
 public class Item {
+	private int ItemID;
 	private String Name;
 	private int Quantity;
 	private ArrayList<String> rankings;
@@ -18,13 +20,34 @@ public class Item {
 	public Item() {
 		this.Name = "";
 		this.Quantity = -1;
-		this.rankings = new ArrayList<String>();
+		this.rankings = new ArrayList<>();
+
 	}
 	
 //  ------------------------------------------
 //  GETTERS AND SETTERS
 //  ------------------------------------------
 	/**
+	 * Get the id of the item
+	 * @return the id of the item
+	 */
+	public int getID() {
+		return ItemID;
+	}
+	
+	/**
+	 * Set the value of the ItemID
+	 * @param id the ID of the item
+	 */
+	public void setID(int id){
+		this.ItemID = id;
+	}
+	
+//  ------------------------------------------
+//  ------------------------------------------
+	
+	/**
+
 	 * Get the value of NAME
 	 * @return the value of NAME
 	 */
@@ -74,8 +97,9 @@ public class Item {
 				throw new NegativeNewQuantity(this.Quantity + " - " + diff + 
 						" is less than zero. Please fix the quantity differece.");
 			}
-		} catch (NegativeNewQuantity negative){
-			
+		} catch (NegativeNewQuantity nnq){
+			Logger.getLogger(fileHandler.class.getName()).log(Level.SEVERE, nnq.getMessage(), nnq);
+
 		}
 	}
 	
@@ -100,8 +124,8 @@ public class Item {
 	
 	/**
 	 * Checks to see if the rank exists in the ArrayList
+	 * @param rank The rank you want to check for
 	 * @return true if it exists, false if not
-`	 * @param rank does this rank exist in the ArrayList
 	 */
 	public boolean hasRanking(String rank){
 		for (String i : rankings){
@@ -118,22 +142,24 @@ public class Item {
 	@Override
 	public String toString() {
 		return  "Item{" + 
-				"Name=" + Util.padRight(this.Name + ",", 15) + 
-				"Quantity=" + this.Quantity + "   " +
+				"ItemID=" + Util.padRight(Integer.toString(this.ItemID), 5) +
+				"Name=" + Util.padRight(this.Name + ",", 35) + 
+				"Quantity=" + Util.padRight(Integer.toString(this.Quantity),5) +
 				"Rankings=" + Util.padRight(getRankings().toString(), 20) + "}";
 				//"Rankings=" + getRankings() + "}";
 	}
 	
-	public ArrayList<String> export(){
-		ArrayList<String> item = new ArrayList<String>();
+	public ArrayList<Object> export(){
+		ArrayList<Object> item = new ArrayList<>();
+		item.add(ItemID);
 		item.add(Name);
-		item.add(Integer.toString(Quantity));
+		item.add(Quantity);
+		ArrayList<String> ranking = new ArrayList<>();
 		for (String i : rankings){
-			item.add(i);
+			ranking.add(i);
 		}
+		item.add(ranking);
 		
 		return item;
 	}
-	
-	
 }

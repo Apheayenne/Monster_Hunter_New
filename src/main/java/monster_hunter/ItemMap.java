@@ -5,22 +5,18 @@
 package monster_hunter;
 
 import java.util.HashMap;
-import java.util.Set;
+import java.util.LinkedHashMap;
 
 /**
  *
  * @author howan
  */
 public class ItemMap extends HashMap<String, Item> {
-	private static HashMap<String, Item> itemMap;
+  private static LinkedHashMap<String, Item> itemMap;
 
-	
-	private ItemMap() { }
-	
-	
-	public static HashMap<String, Item> getInstance(){
+	public static LinkedHashMap<String, Item> getInstance(){
 		if (itemMap == null){
-			itemMap = new HashMap<String, Item>();
+			itemMap = new LinkedHashMap<>();
 		}
 		return itemMap;
 	}

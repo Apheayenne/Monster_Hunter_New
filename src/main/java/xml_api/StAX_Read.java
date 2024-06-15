@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package xml_api;
 
 import java.io.File;
@@ -9,9 +6,12 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.HashMap;
 import java.util.Iterator;
-import monster_hunter.Util;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.stream.*;
 import javax.xml.stream.events.*;
+import monster_hunter.Exceptions.UnhandledElement;
+import monster_hunter.Util;
 import monster_hunter.Item;
 import monster_hunter.ItemMap;
 
@@ -24,21 +24,29 @@ public class StAX_Read {
 	HashMap itemMap;
 	private Item items;
 	boolean isRanking = false;
+	String message;
 	
-	public void Read_Main(File file) throws FileNotFoundException, XMLStreamException{
-		XMLInputFactory factory = XMLInputFactory.newInstance();
-		itemMap = ItemMap.getInstance();
-		XMLEventReader reader = factory.createXMLEventReader(new FileReader(file));
-		
-		while (reader.hasNext()){
-			XMLEvent eventReader = reader.nextEvent();
-			evaluateEvent(eventReader);
+	boolean isDebug = false;
+	
+	public void Read_Main(File file) {
+		try {
+			XMLInputFactory factory = XMLInputFactory.newInstance();
+			itemMap = ItemMap.getInstance();
+			XMLEventReader reader = factory.createXMLEventReader(new FileReader(file));
+			
+			while (reader.hasNext()){
+				XMLEvent eventReader = reader.nextEvent();
+				evaluateEvent(eventReader);
+			}
+		} catch (FileNotFoundException | XMLStreamException ex){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ex.getMessage(), ex);
 		}
 	}
 
 	private void evaluateEvent(XMLEvent event){
 		methodName = "evaluateEvent";
 		String elementName = getElementType(event.getEventType());
+		try{
 		switch(elementName){
 			case "START_ELEMENT" -> {
 				checkStartElement(event.asStartElement());
@@ -47,159 +55,230 @@ public class StAX_Read {
 				checkEndElement(event.asEndElement());
 			}
 			case "PROCESSING_INSTRUCTION" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - PROCESSING_INSTRUCTION: ", 30), event.toString()});
 			}
 			case "CHARACTERS" -> {
-				String newLine = "\n";
-				if (event.toString().contains(newLine)){
-					break;
-				}
 				checkCharacters(event);
 			}
 			case "COMMENT" -> {
 				break;
 			}
 			case "SPACE" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - SPACE: ", 30), event.toString()});
 			}
 			case "START_DOCUMENT" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName, 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - START_DOCUMENT: ", 30), event.toString()});
 			}
 			case "END_DOCUMENT" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - END_DOCUMENT: ", 30), event.toString()});
 			}
 			case "ENTITY_REFERENCE" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - ENTITY_REFERENCE: ", 30), event.toString()});
 			}
 			case "ATTRIBUTE" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - ATTRIBUTE: ", 30), event.toString()});
 			}
 			case "DTD" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - DTD: ", 30), event.toString()});
 			}
 			case "CDATA" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - CDATA: ", 30), event.toString()});
 			}
 			case "NAMESPACE" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - NAMESPACE: ", 30), event.toString()});
 			}
 			case "NOTATION_DECLARATION" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - NOTATION_DECLARATION: ", 30), event.toString()});
 			}
 			case "ENTITY_DECLARATION" -> {
-				Util.print(Util.padRight(methodName + " - " + elementName + ": ", 30) + event.toString());
+				Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+						new Object[]{Util.padRight("evaluateEvent - ENTITY_DECLARATION: ", 30), event.toString()});
 			}
+			default -> {
+				throw new UnhandledElement("Unhandled Element in <" + methodName + ">. Element name <" + elementName + ">");
+			}
+		}
+		} catch (UnhandledElement ue){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ue.getMessage(), ue);
 		}
 	}
 
 	private void checkStartElement(StartElement element){
 		methodName = "checkStartElement";
 		String elementName = element.getName().getLocalPart();
+		try{
 		switch (elementName){
 			case "Items" -> {
-				Util.print(Util.padRight(methodName + ": ", 30) + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+							new Object[]{Util.padRight("checkStartElement: ", 30), "Items"});
+				}
 			}
 			case "Item" -> {
-				Util.print(Util.padRight("\t" + methodName + ": ", 30) + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+							new Object[]{Util.padRight("checkStartElement: ", 30), "Item"});
+				}
 				items = new Item();
 				checkAttributes(element.getAttributes());
 			}
 			case "Rankings" -> {
-				Util.print(Util.padRight("\t" + methodName + ": ", 30) + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+							new Object[]{Util.padRight("checkStartElement: ", 30), "Rankings"});
+				}
 			}
 			case "Ranking" -> {
-				Util.print(Util.padRight("\t\t" + methodName + ": ", 30) + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+							new Object[]{Util.padRight("checkStartElement: ", 30), "Ranking"});
+				}
 				isRanking = true;
 			}
 			default -> {
-				break;
+				throw new UnhandledElement("Unhandled Element in <" + methodName + ">. Element name <" + elementName + ">");
 			}
+		}
+		} catch (UnhandledElement ue){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ue.getMessage(), ue);
 		}
 	}
 	
 	private void checkEndElement(EndElement element){
 		methodName = "checkEndElement";
 		String elementName = element.getName().getLocalPart();
+		try{
 		switch (elementName){
 			case "Items" -> {
-				Util.print(Util.padRight(methodName + ": ", 30) + "/" + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}/{1}",
+							new Object[]{Util.padRight("checkEndElement: ", 30), "Items"});
+				};
 			}
 			case "Item" -> {
-				Util.print(Util.padRight("\t" + methodName + ": ", 30) + "/" + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}/{1}",
+							new Object[]{Util.padRight("checkEndElement: ", 30), "Item"});
+				};
 				itemMap.put(items.getName(), items);
 			}
 			case "Rankings" -> {
-				Util.print(Util.padRight("\t" + methodName + ": ", 30) + "/" + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}/{1}",
+							new Object[]{Util.padRight("checkEndElement: ", 30), "Rankings"});
+				};
 			}
 			case "Ranking" -> {
-				Util.print(Util.padRight("\t\t" + methodName + ": ", 30) + "/" + elementName);
+				if (isDebug) {
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}/{1}",
+							new Object[]{Util.padRight("checkEndElement: ", 30), "Ranking"});
+				};
 
 			}
 			default -> {
-				break;
+				throw new UnhandledElement("Unhandled Element in <" + methodName + ">. Element name <" + elementName + ">");
 			}
+		}
+		} catch (UnhandledElement ue){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ue.getMessage(), ue);
 		}
 	}
 	
 	private void checkCharacters(XMLEvent event){
 		methodName = "checkText";
 		String charName = event.toString();
+		try{
 		switch (charName){
 			case "Low", "High", "Master" -> {
 				if (isRanking){
-					Util.print(Util.padRight("\t\t\t" + methodName + ": ", 30) + event.toString());
+					if (isDebug) {
+						Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+								new Object[]{Util.padRight("checkText: ", 30), event.toString()});
+					};
 					if (!items.hasRanking(charName)){
 						items.setRankings(charName);
 					}
 				}
 				isRanking = false;
 			}
-
 			default -> {
-				break;
+				if (charName.contains("\n")){
+					break;
+				}
+				throw new UnhandledElement("Unhandled Element in <" + methodName + ">. Element name <" + charName + ">");
 			}
+		}
+		} catch (UnhandledElement ue){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ue.getMessage(), ue);
 		}
 	}
 
 	private void checkAttributes(Iterator<Attribute> attributes){
 		methodName = "checkAttributes";
+		try {
 		while (attributes.hasNext()){
 			Attribute attr = attributes.next();
-			
-			Util.print(Util.padRight("\t\t" + methodName + ": ", 30) + attr.toString());
-			
-			switch (attr.getName().getLocalPart()){
+			String att = attr.getName().getLocalPart();
+			switch (att){
+				case "id" -> {
+					if (isDebug) { 
+						Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+								new Object[]{Util.padRight(methodName + ": ", 30), attr.getValue()});
+					}
+					items.setID(Integer.parseInt(attr.getValue()));
+				}
 				case "name" -> {
+					if (isDebug) { 
+						Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+								new Object[]{Util.padRight(methodName + ": ", 30), attr.getValue()});
+					}
 					items.setName(attr.getValue());
 				}
 				case "quantity" -> {
-					items.setQuantity(Integer.valueOf(attr.getValue()));
+					if (isDebug) { 
+						Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
+								new Object[]{Util.padRight(methodName + ": ", 30), attr.getValue()});
+					}
+					items.setQuantity(Integer.parseInt(attr.getValue()));
 				}
 				default -> {
-					break;
+					throw new UnhandledElement("Unhandled Element in <" + methodName + ">. Element name <" + att + ">");
 				}
 			}
 		}
+		}catch (UnhandledElement ue){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ue.getMessage(), ue);
+		}
 	}
 	
-		private String getElementType(int elementID){
-		return switch (elementID){
-            case 1 ->   "START_ELEMENT";
-            case 2 ->   "END_ELEMENT";
-            case 3 ->   "PROCESSING_INSTRUCTION";
-            case 4 ->   "CHARACTERS";
-            case 5 ->   "COMMENT";
-            case 6 ->   "SPACE";
-            case 7 ->   "START_DOCUMENT";
-            case 8 ->   "END_DOCUMENT";
-            case 9 ->   "ENTITY_REFERENCE";
-            case 10 ->  "ATTRIBUTE";
-            case 11 ->  "DTD";
-            case 12 ->  "CDATA";
-            case 13 ->  "NAMESPACE";
-            case 14 ->  "NOTATION_DECLARATION";
-            case 15 ->  "ENTITY_DECLARATION";
-			default ->  "";
+	private String getElementType(int elementID){
+	return switch (elementID){
+		case 1 ->   "START_ELEMENT";
+		case 2 ->   "END_ELEMENT";
+		case 3 ->   "PROCESSING_INSTRUCTION";
+		case 4 ->   "CHARACTERS";
+		case 5 ->   "COMMENT";
+		case 6 ->   "SPACE";
+		case 7 ->   "START_DOCUMENT";
+		case 8 ->   "END_DOCUMENT";
+		case 9 ->   "ENTITY_REFERENCE";
+		case 10 ->  "ATTRIBUTE";
+		case 11 ->  "DTD";
+		case 12 ->  "CDATA";
+		case 13 ->  "NAMESPACE";
+		case 14 ->  "NOTATION_DECLARATION";
+		case 15 ->  "ENTITY_DECLARATION";
+		default ->  "";
 		};
-	}
+	}		
 }
