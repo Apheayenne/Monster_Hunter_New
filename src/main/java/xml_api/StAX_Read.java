@@ -10,6 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.stream.*;
 import javax.xml.stream.events.*;
+import monster_hunter.Exceptions.DuplicateRanking;
 import monster_hunter.Exceptions.UnhandledElement;
 import monster_hunter.Util;
 import monster_hunter.Item;
@@ -26,7 +27,7 @@ public class StAX_Read {
 	boolean isRanking = false;
 	String message;
 	
-	boolean isDebug = false;
+	boolean isDebug = true;
 	
 	public void Read_Main(File file) {
 		try {
@@ -171,6 +172,7 @@ public class StAX_Read {
 							new Object[]{Util.padRight("checkEndElement: ", 30), "Item"});
 				};
 				itemMap.put(items.getName(), items);
+				System.out.println(items);
 			}
 			case "Rankings" -> {
 				if (isDebug) {
@@ -199,17 +201,17 @@ public class StAX_Read {
 		String charName = event.toString();
 		try{
 		switch (charName){
-			case "Low", "High", "Master" -> {
+			case "LOW", "HIGH", "MASTER" -> {
 				if (isRanking){
 					if (isDebug) {
 						Logger.getLogger(StAX_Read.class.getName()).log(Level.INFO, "{0}{1}", 
 								new Object[]{Util.padRight("checkText: ", 30), event.toString()});
-					};
-					if (!items.hasRanking(charName)){
-						items.setRankings(charName);
 					}
+					items.setRankings(Item.getRanking(charName));
+					Logger.getLogger(StAX_Read.class.getName()).log(Level.WARNING, "Setting the Ranking: {0}", 
+								items.getRankings());
+					isRanking = false;
 				}
-				isRanking = false;
 			}
 			default -> {
 				if (charName.contains("\n")){
@@ -218,8 +220,8 @@ public class StAX_Read {
 				throw new UnhandledElement("Unhandled Element in <" + methodName + ">. Element name <" + charName + ">");
 			}
 		}
-		} catch (UnhandledElement ue){
-			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, ue.getMessage(), ue);
+		} catch (UnhandledElement | DuplicateRanking e){
+			Logger.getLogger(StAX_Read.class.getName()).log(Level.SEVERE, e.getMessage(), e);
 		}
 	}
 

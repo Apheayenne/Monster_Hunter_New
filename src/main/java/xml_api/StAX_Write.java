@@ -88,11 +88,11 @@ public class StAX_Write {
 	private void writeRanking(Item item, XMLStreamWriter writer){
 		try{
 			writer.writeStartElement("Rankings");
-			ArrayList<String> rankings = item.getRankings();
-			for (String i : rankings){
+			ArrayList<Item.Ranking> rankings = item.getRankings();
+			for (Item.Ranking i : rankings){
 				Logger.getLogger(StAX_Write.class.getName()).log(Level.INFO, "Ranking: {0}", i);
 				writer.writeStartElement("Ranking");
-				writer.writeCharacters(i);
+				writer.writeCharacters(i.getString());
 				writer.writeEndElement();
 			}
 			writer.writeEndElement();

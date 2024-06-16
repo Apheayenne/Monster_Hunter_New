@@ -4,6 +4,10 @@ package monster_hunter;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import monster_hunter.Exceptions.DuplicateRanking;
+import monster_hunter.Item.Ranking;
 
 /**
  *
@@ -27,16 +31,33 @@ public class Monster_Hunter {
 		LinkedHashMap map = ItemMap.getInstance();
 		
 		Set itemSet = map.keySet();
-		Item item;
 		Iterator iter = itemSet.iterator();
 		
-		item = (Item)map.get("Potion");
-		item.setQuantityDiff(5, false);
+		Item potion = (Item)map.get("Potion");
+		potion.setQuantityDiff(5, false);
+		
+		Util.print(Item.getRanking("Low"));
+		Util.print(Item.getRanking("High"));
+		Util.print(Item.getRanking("Master"));
+
+		
+		try{
+			Item antidote = (Item)map.get("Antidote");
+			antidote.setRankings(Ranking.HIGH);
+		} catch (DuplicateRanking dr){
+			Logger.getLogger(fileHandler.class.getName()).log(Level.SEVERE, dr.getMessage(), dr);
+
+		}
+		
+		
+		
+		
 		while (iter.hasNext()){
 			String value = (String)iter.next();
 			Item items = (Item)map.get(value);
-			//System.out.println(items.toString());
+			System.out.println(items.toString());
 		}
+		
     
 //  Writing to File
 		Util.print("Writing to File");

@@ -15,7 +15,7 @@ public class Item {
 	private int ItemID;
 	private String Name;
 	private int Quantity;
-	private ArrayList<String> rankings;
+	private ArrayList<Ranking> rankings;
 	
 	public Item() {
 		this.Name = "";
@@ -110,7 +110,7 @@ public class Item {
 	 * Get the Rankings ArrayList
 	 * @return the ArrayList
 	 */	
-	public ArrayList<String> getRankings() {
+	public ArrayList<Ranking> getRankings() {
 		return rankings;
 	}
 	
@@ -118,8 +118,11 @@ public class Item {
 	 * Set the value of Rankings
 	 * @param rank the difference of quantity
 	 */
-	public void setRankings(String rank) {
-		this.rankings.add(rank);
+	public void setRankings(Ranking rank) throws DuplicateRanking {
+		if (hasRanking(rank)){
+			throw new DuplicateRanking("Rank <" + rank + "> Aready exists in the Item <" + getName());			
+		}else
+			this.rankings.add(rank);
 	}
 	
 	/**
@@ -127,14 +130,41 @@ public class Item {
 	 * @param rank The rank you want to check for
 	 * @return true if it exists, false if not
 	 */
-	public boolean hasRanking(String rank){
-		for (String i : rankings){
+	public boolean hasRanking(Ranking rank){
+		for (Ranking i : rankings){
 			if (i.equals(rank)){
 				return true;
 			}
 		}
 		return false;
 	}
+	
+	public enum Ranking{
+		LOW("LOW"),
+		HIGH("HIGH"),
+		MASTER("MASTER"),
+		NONE("NONE");
+		
+		private final String name;
+		
+		private Ranking(String value){
+			name = value;
+		}
+		
+		public String getString(){
+			return name;
+		}
+	}
+	
+	public static Ranking getRanking(String name){
+		return switch(name){
+			case "LOW" -> Ranking.LOW;
+			case "HIGH" -> Ranking.HIGH;
+			case "MASTER" -> Ranking.MASTER;
+			default -> Ranking.NONE;
+		};
+	}
+	
 	
 //  ------------------------------------------
 //  ------------------------------------------
@@ -154,8 +184,8 @@ public class Item {
 		item.add(ItemID);
 		item.add(Name);
 		item.add(Quantity);
-		ArrayList<String> ranking = new ArrayList<>();
-		for (String i : rankings){
+		ArrayList<Ranking> ranking = new ArrayList<>();
+		for (Ranking i : rankings){
 			ranking.add(i);
 		}
 		item.add(ranking);
